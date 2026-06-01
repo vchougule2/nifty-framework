@@ -1,0 +1,217 @@
+OCR TEXT FOR: Document 1.pdf
+Source type: scanned-image PDF
+OCR note: Recognition may contain errors because originals are photographed/scanned screenshots. Verify critical values against the source PDF.
+================================================================================
+
+
+--- Page 1 of 11 ---
+
+*                h -        .
+Ss
+
+‘ument View Request                                                       Work | Web
+
+“* Vikram's 23-Rule Institutional Swing Trading Framework
+
++ Tier Structure & Precedence
+Tier 1— & Gates
+
++ Role: Hard filters
++ If any gate fails ~ trade blocked
+
++ Precedence: Highest
+Tier 2— @ Core Rules
+
++ Role: Primary scoring engine
++ Generates conviction score
+
++ Precedence: High
+
+Message Copilot
+
+4                        8
+
+
+--- Page 2 of 11 ---
+
+Detailed Document View Request                                                               Work = Webs
+
+Tier 3— \. Enhancements
++ Role: Refines signal quality
++ Adds or subtracts conviction
++ Precedence: Medium
+
+Tee    2
+.         MIF & cross-  ignal alignment
+
++ Vatdates overall alignment
++ Precedence: Medium-Low
+
+core
+
+Tier 5— @ Strategy Selector
+
++ Role: Picks instrument & options strategy
++ Based on final conviction + IV Percentile
++ Precedence: Lowest
+
+Message Copilot
+
++
+
+‘A-generated content may be incortect
+
+
+--- Page 3 of 11 ---
+
+Detaled Document View Request
+
+@ Approved Components
+'S1—Market/index-Level Analysis
+
++ Tier 1 (Gate)
+
++ Score: Gate Pass/Fail
+
++ Status: Discussed
+S2 — Stock-Level 08 & Demand/Supply
++ Tier 2 (Core)
+
++ Max Seove:12
+
++ Status: Approved
+
+ops
+
+
+--- Page 4 of 11 ---
+
+Detaled Document View Request
+S3—FVG & Precision Entry
++ Tier2 (Core)
++ Max Score:8
++ Status: Approved
+S4— Liquidity Sweep & Stop Hunt
++ Tier:2(Eore)
++ Max Seore:11
++ Status: &@ Approved
+'S5— BOS & CHoCH Structural Confirmation
++ Tier 2 (Core)
++ Max Score:10
++ Status: Approved
+
+Work
+
+Web
+
+
+--- Page 5 of 11 ---
+
+S6 — Volume & Delivery (Institutional Fingerprint)
+
++ Tier: 2 (Core)
++ Max Score: 15
++ Status: (@ Approved
+
+7 —FIVFPI Flow & institutional Momentum
++ Tier: 3 (Enhancement)
++ Status: & Approved
+
+58-59 — Additional Enhancements
+
++ MAL, RSI Divergence, ROC, Peer Convergence
++ Tier:3
++ Status: 1 Approved
+
+Message Copilot
+
++
+
+
+--- Page 6 of 11 ---
+
+“ Tier 3 Enhancements
+
++ MTAL—Multi-Timeffame Alignment
+
++ RSI Divergence — Weekly 08/05 zones (Bulkowski validated)
++ ROC —Rate of Change analysts
+
++ Peer Convergence — Sectox/peer alignment
+
++ Fil Momentum — Fll/FP flow-based (S7)
+
+
+--- Page 7 of 11 ---
+
+& Decision Flow
+
+| st c00 bate
+
+1
+
+THER 4: GATES (S1)
+| ran + % wo Toe
+ass 4
+
+‘THER 2: CORE SCORING
+s2qaa) + S3(8) + saat)
++ S5(20) + sé(a5) = S6
+!
+
+
+--- Page 8 of 11 ---
+
+TIER 3: ENHANCEMENTS
+MTAL, RSI Div, ROC,
+Peer Conv, FIT Mom
+(Add/Subtract points)
+
+’
+TIER 4: COHERENCE
+MTF + Cross-signal check
+
+v
+| TIER 5: STRATEGY SELECTOR
+Conviction + IVP +
+
+Instrument & Options
+
+
+--- Page 9 of 11 ---
+
+v
+TIER 5: STRATEGY SELECTOR
+Conviction + IVP +
+Instrument & Options
+\
+v
+@ Telegram Alert
+fl Google Sheets Log
+
+
+--- Page 10 of 11 ---
+
+Ay Soft Gates & Interaction Rules
+
++ S5.= 0+ Hard block, no trade
+* S5=1-3 - Needs strong S2 + S4
++ S4 Unswept Liquidity + Semi-gate (wait)
++ 86 Block/Bulk Filter + Mandatory pre-fiter
+* (Bulk/block deals often ignored —just exchange of hands)
++ S3 Negative Score — invalidates setup
+
+
+--- Page 11 of 11 ---
+
+1. © Gates are non-negotiable
+2. fil NSE primary source, no social sentiment
+3. @ Backtest before any change
+
+4, @ SL, entry, exit decided manually
+
+5. {Event calendar to be integrated
+
+6. & Greeks are dynamic, not predictive
+
+7. @ Designed to detect institutional activity

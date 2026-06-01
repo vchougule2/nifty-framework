@@ -1,0 +1,288 @@
+OCR TEXT FOR: Document 7.pdf
+Source type: scanned-image PDF
+OCR note: Recognition may contain errors because originals are photographed/scanned screenshots. Verify critical values against the source PDF.
+================================================================================
+
+
+--- Page 1 of 15 ---
+
+= Document 7: S7 — FII/FPI Flow & Institutional
+Momentum (Enhancement Tier)
+
+1) Overview
+
++ Code:S7
+
++ Tier: 3 (Enhancement)
+
+* Role: Analyze FIVFPI behavior to understand institutional intent, rotation, and hidden accumulation
+
+* Score Type: Additive / deductive (no fiied max, but typically 5 impact)
++ Status: &@ Approved
++ Precedence: Applied after Tier 2 core score
++ Key Nature:
+G Boosts conviction
+X Does NOT override hard gates (st, 5-0)
+
+
+--- Page 2 of 15 ---
+
+2) Core Philosophy (Important Correction You Made
+
+“Fl net buy/sell alone is misleading”
+
+ Why?
++ Fs
++ Hedge postions using derivatives
++ Rotate between sectors
++ Do index management
++ Se
++ Net Buy # Bullish Next Day
++ Not Sell # Bearish Next Day
+
+© Therefore S7 focuses on structure behind the flow, not just the number
+
+
+--- Page 3 of 15 ---
+
+3) S7 Structure (Components)
+SThas 4 core analytical blocks
+
+1, C1—Netvs Gross Flow Analysis
+2. €2— Rotation & Positioning Logie
+
+3. €3— Sector & Stock Selection Behavior
+4. C4— Consolidation Accumulation Thesis
+
+C1) Net vs Gross Flow Analysis
+&
+
+‘What you analyze:
++ Net Buy/Selt
+
++ Gross Buy
+
++ Gross Sell
+
+
+--- Page 4 of 15 ---
+
+(%& Key Observations (Your Approved Logic)
+
+Case 1: High Gross Buy + High Gross Sell + Low Net
++ nterpretation:
++ ls are rotating or closing positions
++ NOT directional
++ impact: Neutral Slight Negative
+
+Case 2: High Gross Buy + Moderate Sell + Strong Net Buy
++ Interpretation:
++ Real accumulation
++ impact: © Positive
+
+Case 3: High Gross Sell + Low Net Diffe
++ iterpretation:
+
++ Distribution / rotation
++ Impact: Caution
+
+
+--- Page 5 of 15 ---
+
+© S7 Scoring (C1)
++ Strong ditectonal ow + +2
++ Mixed / rotational -+0
+
++ Distribution heavy -+ to 2
+
+C2) Rotation & Positioning Logic
+
+Purpose
+To detect sector rotation vs directional build-up
+
+© Your Approved Rule:
+
+buying & selling both high but net small ~ sector rotation / position shifting
+
+
+--- Page 6 of 15 ---
+
+Key Signals
++ Capital moving across sectors (eT -+ Banking)
++ Not strong index direction but stockspeclic moves
+
+ Interpretation
+Seenatio                      Meaning
+Calanced buy/sel                  Rotation
+
+Consistent buying across days Postion bulld-up
+
+Seng dominating rotation Risk off
+
+Impact
+Neutral
+Positive
+
+Negative
+
+
+--- Page 7 of 15 ---
+
+@ S7 Scoring (C2)
+
++ Clear accumulation trend + +2
++ Rotation 0
+
++ Distribution 1
+
+C3) Sector & Stock Selection Behavior
+
+ Your Approved Assumptions
+1. ls preter:
++ Nifty 50 / Nifty 100 stocks.
+2. They buy:
++ Beaten-down sectors ©
++ Quality stocks within those sectors
+
+
+--- Page 8 of 15 ---
+
+Practical Logic
++ HH buying aligns with:
++ Sector bottoming
+* Relative underperformance earlier -+ (9 Early reversal signal
+
+ Scoring (C3)
++ Buying in beaten-down sectors + +2
++ Buying already extended sectors 0
++ Selling beaten-down sectors -+ 1
+
+
+--- Page 9 of 15 ---
+
+C4) Consolidation Accumulation Thesis &% (Your Key
+Insight)
+
+il accumulate during consolidation to hide positions”
+
+ What you look for:
++ Price:
++ Sideways /range-bound
++ Volume:                                       »
++ Gradually rising
++ Delivery
++ Stable or increasing
++f
+*+ Consistent buying over days/wecks
+
+
+--- Page 10 of 15 ---
+
+Interpretation
+
+Behavior                    Meaning
+Quiet accumulation              ‘Smart money entering
+
+Breakout after consolidation Start of move
+
+ ‘Scoring (C4)
+
+* Clear accumulation -+ +2
++ Undear +0
++ Distribution
+
+
+--- Page 11 of 15 ---
+
+4) ROC Integration (Cross-Time Analysis
+You raised this correctly:
+
+| Ate we comparing across weekly, monthly, 3M, 6M?"
+
+|
+ ‘Yes — S7 integrates ROC across periods:
++ 1Week
++1 Month
++ 3 Month
++ Optional: 6 Month
+
+ Interpretation
++ ising ROC across periods + momentum building
++ Divergence ~ unstable trend
+
+
+--- Page 12 of 15 ---
+
+5) Final S7 Impact Summary
+‘S7 does not have fixed max like S6, but typical effect:
++ +4to 45: Strong institutional tatwind
++ 42to 43: Supportive
++O: Neutral (ignore)
++ -2t0-3: Warning signal A
++ <3 Strong distribution
+
+6) Interaction with Core Modules
+
+ With S6 (Volume/Delivery)
++ Best combo:
++ S6 stong + SY strong ~ confirmed ind¥tutional activity
+
+
+--- Page 13 of 15 ---
+
+With S2 (OB Zones)
+
++ Fil buying at OB zones = high conviction reversal
+
+  With S5 (Structure)
++ ‘Strong S7 can boost S5=4-6 setups
++ But X cannot override:
+
++ $50 (hard block)
+
+With Your Key Thesis
+
++ Fs:
+
++ Use cash market for swing trades
++ Prefer liquid stocks (Nifty 100) &
+
+
+--- Page 14 of 15 ---
+
+7) Practical Example (Based on Your Logic)
+
+Scenario:
+
++ Fil net buy small
+
+* Gross buy = very high
+
++ Gross sell = high
+
++ Sector rotation visible
+
++ TT sector delivery rising (ike your 18th May observation)
+
+Interpretation:
++ Not dteetional
++ Uikely rotation + selective accumulation
++= Wait for
++ S2+ 54485 confirmation
+
+
+--- Page 15 of 15 ---
+
+8) What S7 Prevents
++ Biindly following
+
+ret buy”
++ Misreading hedging activity
+* Entering at wrong phase late momentum)
++ Ignoring rotation dynamics
+
+9) Final Practical Rule (Important)
+ Use S7 as CONTEXT, not TRIGGER
++ Manswers: “Is smart money supportive?”
+
+* Itdoes NOT answer: “Should | enter now?”

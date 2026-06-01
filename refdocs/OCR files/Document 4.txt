@@ -1,0 +1,183 @@
+OCR TEXT FOR: Document 4.pdf
+Source type: scanned-image PDF
+OCR note: Recognition may contain errors because originals are photographed/scanned screenshots. Verify critical values against the source PDF.
+================================================================================
+
+
+--- Page 1 of 9 ---
+
+J Document 4: S4— Liquidity Sweep & Stop Hunt
+Detection (Max Score: 11)
+
+oOverdew
+1 Maley ent gt ngs uy open,
+| pnw Sa ei ce ian 8
+tna soe
+
+
+--- Page 2 of 9 ---
+
+2) Why S4 Matters (Practical Logkc)
+rte ee gsiy tee hg stot et sas po ay
+Yeo cr pe
+
+3) SA Scoring Structure (Total = 11)
+‘tna cmponats:
+
++ Agi erieaton a3)
+
++ sweep stan Cntimation a8)
+
++ Sep Depth (op Hunt Sent ae)
++ Oj Induceman hk a)
+
+
+--- Page 3 of 9 ---
+
+Work | Web
+
++ D) Inducement Check (Max 1)
+
+A) Component A — Liquidity Identification (Max: 3)
+
+This identifies where stops are likely sitting.
+
+Al) Clear Liquidity Pool Type (Max: 2)
+Score:
++ 2=Clean, obvious liquidity poo
++ Equal highs / equal lows (range)
++ Swing high/low with multiple touches.
++ Trendline liquidity / obvious retail levels.
++ 1= Moderate clarity (exists but not clean)
++ 0 = No obvious liquidity
+
+ Logic: If liquidity is not clearly visible, a "sweep story’ is weak.
+
+A2) Proximity to HTF Zone (S2) (Max: 1)
+
+iquidity sits at/near S2 OB/Demand-Supply zone
+iquidity is away from zones (lower quality)
+
+[& Logic: Sweeps at HTF zones are far more reliable than random sweeps in the middle.
+
+Message Copilot
+
++                                                                                                                    Qo lh
+
+‘Al-generated content may be incorrect
+
+
+--- Page 4 of 9 ---
+
+B) Component B — Sweep Status (Confirmation)
+(Max: 4)
+
+This confirms whether liquidity was actully taken
+
+B1) Liquidity Taken (Wick Through Level) (Max: 2)
+
+Score:
+
+lear sweep: wick breaks prior high/low and returns
+
+tial sweep / marginal breach
+
+No sweep
+
+© Logic: A wick through liquidity is the clearest stop-hunt signature. [>
+
+B2) Reclaim / Close Back Inside (Max: 2)
+Score:
+
++ 2= Strong reclaim: candle closes back inside the range/zone with conviction
++ 1/= Weak reclaim (close near boundary)
++ 0 = No reclaim (price accepts beyond level)
+
+ Logi
++ Sweep + reclaim = stop-hunt + trap
++ Break without reclaim = possible breakout/continuation (not reversal setup)
+
+
+--- Page 5 of 9 ---
+
+C) Component C — Sweep Depth (Stop Hunt
+Strength) (Max: 3)
+
+This is where your approved rule applies:
+
+© Longer/deeper sweep — faster reversal
+
+C1) Depth Beyond Liquidity (Max: 2)
+Score:
+
++ 2'= Deep sweep (clear distance beyond liquidity; obvious stop purge)
++" 1 = Shallow sweep (barely takes the stops)
++0 = Micro sweep/noise
+
+ Logic: Deep sweeps tend to “finish the job” (liquidity collection) and reverse harder.
+
+C2) Speed of Return (Max: 1)
+Score:
+
++ 1= Quick snap back (same candle or next candle)
++ 0 = Slow drift back / multiple candles.
+
+ Logic: Faster return implies strong opposing orders (institutional absorption/defense).
+
+
+--- Page 6 of 9 ---
+
+D) Component D — Inducement Check (Max: 1)
+Dv inducement Present (Max: 1)
+17 eae mp eect ay bd mee
+
+{2 tage nace na he bat al sep me eee eo,
+
+4) S4 Total Score Summary       &
+BOF. ome
+8 ety maine
+
+
+--- Page 7 of 9 ---
+
+'5) Interpretation Tiers (Trade Aggressiveness)
++ he Soe tan hgpese|
+
+8
+
+6) Semi-Gate Logic (Cita Precedence Rule)
+ase iii ast but NOT Swept
+pitt
+
+1 anion bt ey it pm Spee
+ase 2: gly Swept» Rachie
+
+
+--- Page 8 of 9 ---
+
+‘7) interactions With Other Modiles
+
+S2(08 zones)
+‘cone high gy sth ny ne
+
+s8(0s/cHeCH)
+1 sawp) HAC 8) ty lone)
+
+8 (vtume/Dalver nttional ingerit)
+Ase th sg lamers oc ee
+
+£8) Practical “Institutional Entry Model” (Your Framework Sequence)
+BOS one
+
+So Sahat)              1
+
+
+--- Page 9 of 9 ---
+
+9) Common Mistakes S4 Prevents
+
++ Entering at 08 without liquidity completion
+* Confusing breakout with sweep (no reclaim = not a sweep reversal)
++ Treating micro-wicks as stop hunts
+
+* Ignoring inducement (missing the “trap setup” context)

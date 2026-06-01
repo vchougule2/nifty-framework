@@ -1,0 +1,327 @@
+OCR TEXT FOR: document 9.pdf
+Source type: scanned-image PDF
+OCR note: Recognition may contain errors because originals are photographed/scanned screenshots. Verify critical values against the source PDF.
+================================================================================
+
+
+--- Page 1 of 16 ---
+
+Document 9: Tier 4— Coherence Engine
+(Alignment + Conflict Resolution)
+
+Ties 4s where your ramework becomes decsion-ready.
+Ter 2 tls you what the setups. Ter 3telsyou how strong itis
+
+G2 Tier 4 ensures everyting is coherent, 3 you don take “mined sg
+
+inal trades that ook great on one
+‘module but are structurally wrong,
+
+
+--- Page 2 of 16 ---
+
+1) Overview
++ Tier: 4 (Coherence / Validation Layer)
++ Type: Mostly Pass/Fail + optional small modifier
++ Role Detect conflicts between:
+
++ HIF bias vs UTF tigger
+
++ Zone vs structure vs patticpation
+
++ Stock vs sector vs market regime
++ Precedence: Runs after Tier 2(S2-S6) + Tir 3 (Enhancements ite MTAL/ROC/Peers/RSUS7)
++ Output:
+
++E COHERENT - Trade allowed
+
++A, PARTIAL -- Wait/Reduce aggression
+
++X INCOHERENT -+ No trade / No entry now
+
+
+--- Page 3 of 16 ---
+
+2) What “Coherence” means in your framework
+A setup coherent when:
+
+1. Context is correc (S2 zone makes sense in HIF narrative)
+
+2, Liquidity logic is complete (S4 not violated / not incomplete)
+
+3. Structure confirms (S5 not wesk/invalid)
+
+4, Participation is real (36 supports the direction)
+
+5. Environment supports (MTAL / Peers / ROC /7 don't contradict)
+6. No major red flags (trap signatures / climax / divergence falures)
+
+
+--- Page 4 of 16 ---
+
+3) Tier 4 Inputs (What it consumes)
+Tier 4 uses the outputs of
+
++ S2:0B / Demand-Supply quality and TF reliability
+
++ S3: FVG precision (optional, but negative invalidates)
+
++ S4: Liquidity sweep status and depth
+
++ S5:BOS/CHOCH structure confirmation (sft/hard rules)
+
++ S6: Volume + Delivery + Institutional fingerprint
+
++ ST:FIVEPI contest (enhancement, not trigget)
+
++ Tier 3 Enhancements: MTAL, ROC, Peer convergence, RSI divergence (conditional)
+
+
+--- Page 5 of 16 ---
+
+4) Coherence Checklist (6 Pillars)
+Tink of Tier 4a 6 plas. 10 many pilarsare wel/confitng ~ no trade.
+Pillar A— Directional Agreement
+
+ All major modules should point inthe some direction:
+
++ S2zone direction (Demand =
+
+lsh, Supply = bearish)
++ SA sweep direction (sweep below demand -- bullish reversal: sweep above supply ~ bearish reversal)
++ 'SSsstructure direction (CHOCH + 80S confirms direction)
+
+* 6 participation direction (delivery/volume supports move direction)
+
++ MAL bias (Monthly/Weeldy should not oppose the trade)
+
+Fail Condition (Hard confit
+
+TF (Monthly/Weeklyis bearish but you're taking a bullish reversal without HTF demand context
++ INCOHERENT
+
+
+--- Page 6 of 16 ---
+
+Pillar B — Sequence Integrity (Institutional Sequence)
+‘The cleanest institutional sequence you approved is:
+BO Sy Print
+
+1.82 (NTF Zone) + S4 (Sweep) » S5 (CHoGH/B0S) + S3 (FVG entry) + S6 (Participation
+confirmation)
+
+Pass:
+‘+ This sequence exists fully or at least in a robust variarke
+Partiak:
++ Missing S3 (ine) but S2 + S4 + S5 + S6 are strong.
+Fait
+
++ You have S2 but S4 indicates liquidity is not swept (semi-gate wait)
++ OFSSis 0 hard block)
+
+
+--- Page 7 of 16 ---
+
+Pillar C — Location Validity (Where the signal happens)
+Tie 4 checks ifthe “trigger” is happening atthe right place
+
++ 1.S4 sweep happening at/near S2 OB zone?
+
+* 1585 .B0S occurring after sweep (institutional entry model)?
++ IS S3.FVG inside/near 08?
+
+Fail Condition:
+
+* Strong S5 BOS but mid-range, far from S2 zones + no sweep narrative
+~ may be momentum chase / lower RR / higher trap probability
+
+
+--- Page 8 of 16 ---
+
+Pillar D — Participation Integrity (S6 must match story)
+This pil
+
+is critical in Indian markets
+Bullish reversal coherence expects:
+
++ Delivery % stable/up oF Delivery ROC up
+
+* Trade microstructure suggests real money (ATS 1 / Trades | with Value 1)
++ Avoid climax distribution signals
+
+Incoherence examples:
++ Structure bulish (5 high), but S6 shows:
++ Volume up + Delivery down
+
+* Trades up strongly + ATS down ~ retail-driven or churn — weak coherence
+
+
+--- Page 9 of 16 ---
+
+Pillar E— Environment Confirmation (Peers / Sector / ROC / S7)
+This pilla answers: Is the move supported by the broader environment?
+Pass:
+
++ Peer convergence positive (sector moving, peers aligning)
++ ROC improving (acceleration)
++ ST supportive (not mandatory)
+
+Partial:
+* Peers neutral but MTAL strong + S6 strong
+Fail (Strong warning):
+
+* ‘Stock bullish signal but sector is breaking down and peers are weak
+~ may become a false isolated pop
+
+
+--- Page 10 of 16 ---
+
+Pillar F — Red Flag Detector (Trap Conditions)
+Tier 4 explicitly checks for trap signatures
+Red Flags:
++ S3 negative (setup invalidation)
++ S5 failed 80S scenario (exit signal / no new entry)
++ S6climax volume after extended move with weakening delivery (distribution risk)
+
++ Liquidity unswept + price is near entry (likely stop-hunt pending)
++ HT supply overeadvery cov (upside capped)
+
+161 major red flag or 2-3 minor flags:
+= Wait / avoid
+
+
+--- Page 11 of 16 ---
+
+Option A (Recommended): 3-State Output
++ (@ COHERENT
+
+4 PARTIAL
++X INCOHERENT
+
+
+--- Page 12 of 16 ---
+
+Option B (If you want a number): Coherence Score out of 10
+
+(Not mandatory, but useful for automation flags)
+
+QO S~ SPainton
+1 A Direction agreement       2
+2B sequence integrity      o2
+3 € Location validity       02
+
+4 0 Participation integrity 0-2
+5 E Environment confirmation 0-1
+© F Red flags (penalty)      Oto 3
+8 Total               0-10 (with penalty)
+
+Interpretation
++ 8-10: &@ Coherent (entry allowed)
+
+*+ 5-7: A. Pata wait or require better tigger / reduce aggression)
++ 0-4: X Incoherent (skip)
+
+|
+
+| _ Note: This NOT replacing Tier 2 score— it's validating alignment.
+
+
+--- Page 13 of 16 ---
+
+6) Conflict Resolution Rules (Most Important Part)
+When modules conflict, Tier 4 defines who wins.
+Rule 1 — HTF alwayS wins over UTF
+
+Monthly/weekly bias + zone context overrides lower TF triggers.
+If LIF looks bullish but HIF is at/near supply » reduce or avoid.
+
+Rule 2 — S5 (Structure) overrides “nice-looking” S3 entries
+
+A perfect FVG entry is useless if BOS/CHoCH is absent or invalid.
+Rule 3 — S4 “unswept liquidity” overrides early 0B entries
+
+If liquidity pool is obvious and not taken » wait (semi-gate).
+Rule 4 ~ S6 participation can downgrade a setup _
+
+If participation doesn’t support the narrative, Won't: force it.
+
+Rule 5 — Peer divergence is a caution, not a hard block
+
+Sector weakness reduces conviction, but a strong stock can still move.
+Treat as Partial unless other pillars are extremely strong.
+
+Rule 6 — Major red flags block immediately
+
+S5 = @ + hard block
+S3 < @ » invalidation                        v
+Failed BOS (per S5 rule) » exit / no re-entry until new structure forms
+
+
+--- Page 14 of 16 ---
+
+7) Examples (How Tier 4 decides)
+
+Example 1 — Perfect Institutional Reversal (COHERENT)
+
++ S2: Monthly Weekly demand nested (high)
+
++ S4: Deep sweep below liquidity + reclaim
+
++ S5: CHOCH then BOS with displacement; LTF BOS after sweep present
++ S6: Delivery ROC up, ATS'up, trades down, value up
+
++ Peers: sector supportive
+
+© Output: COHERENT
+
+Example 2 — Looks good, but liquidity not taken (PARTIAL ~ WAIT)
+
++ S2: Strong demand zone
++ S4: Liquidity visible but NOT swept
+
++ S5: Minor structure change but not clean
++ S6: Neutral
+
+4, Output: PARTIAL (wait for sweep or clearer BOS)
+
+
+--- Page 15 of 16 ---
+
+Example 3 — Structure bullish but participation retail-like (INCOHERENT)
++ S5:B0S strong
+
++ S6: Volume high but delivery weak, trades surging, ATS down
++ Peers weak
+
+X Output: INCOHERENT (chase risk)
+
+8) Final Tier 4 Output (What it feeds into Tier 5)
+
+Tier 4 produces one of these:
+
+BOD Sy oh mainte
+
+1 COMERENT + Tier 5 can select strategy immediately
+
+2 PARTIAL > Tler 5 selects “wait / conditional entry / alerts only” I
+3 INCOMERENT® Tier 5 blocks trade and logs reason
+
+
+--- Page 16 of 16 ---
+
+Reque
+9) Logging (Audit Trail Style — matches your preference)
+Whenever Tier blocks or downgrades, it should log
++ Which pillar filed
+
++ What conflict occurred
+“+ What must happen to upgrade to coherent (actionable next condition)
+
+Example log:
+QO Se Hpuinten
+
+A. Thera: PARTIAL
+2 Reason: Unswept Liquidity below demand (s4 semi-gate).
+3 Action: wait for sweep + reclaim o8 clear LTF 005 after sweep.
+
+  Document 9 (Tier 4 — Coherence Engine) complete.

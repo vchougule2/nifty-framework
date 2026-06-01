@@ -1,0 +1,392 @@
+OCR TEXT FOR: Document 12.pdf
+Source type: scanned-image PDF
+OCR note: Recognition may contain errors because originals are photographed/scanned screenshots. Verify critical values against the source PDF.
+================================================================================
+
+
+--- Page 1 of 16 ---
+
+|= Document 12: Unified Precedence Rules (Master
+Rulebook)
+
+A single ordered ‘what overrides what" rulebook — hard blocks, soft gates, nvalidations, and wait triggers
+written o be audit-friendly and automation-ready.
+
+0) Purpose & Output of This Rulebook
+This document defines:
++ © Evaluation order (precedence)
++ © Hard blocks (trade is rejected immediately)
+1. Soft gates / Wait rules (trade is not rejected, but entry is deferred until conditions are met)
+
++X Invalidation rules (even if everything else is good, setup becomes invalid)
+
+Conflict resolution (when two modules disagree, who wins)
+
+Logging schema (how to record the reason clearly)
+
+
+--- Page 2 of 16 ---
+
+1) Absolute Precedence (Top + Bottom)
+
+PO — Data Integrity
+
+Vf data is wrong, everything else is wrong
+
+P1— Tier 1 Gates (Market ~ Sector — Stock + Event)
+Hany gate blocks ~ no trade, even if Ter 2 scores high
+
+P2 —Tier 2 Core (S2-S6)
+
+This builds the eore conviction using SMC structure + participation
+
+P3 — Tier 3 Enhancements (S7 + MTAL/RSI/ROC/Peers)
+Adds/subracts confidence; cannot override hard blocks.
+
+P4 — Tier 4 Coherence
+
+Val
+
+s alignment: determines Execute / Wait / Block.
+
+PS —Tier 5 Strategy Selector
+
+Selects Cash/Options and options structure using conviction + IVP (no Sl/targets sizing hardcoded),
+
+
+--- Page 3 of 16 ---
+
+2) Hard Blocks (Immediate “NO TRADE”)
+
+© a1e non-negotiable. The moment any one triggers, stop further evaluation.
+HB-1: Tier 1 Gate = BLOCK
+Examples:
+
++ Market in opposing HTF zone
+
++ Sector structurally broken against direction
+
+*+ Stock illiquid/untradable
+
++ Event risk window (earnings/RBI) triggers block
+
+Action: X BLOCK
+Log: Tiert_Block: {GateName} - {Reason}
+
+HB-2: S5 (Structure) = 0
+Approved rule: S5=0 is a hard block
+
+Action: BLOCK
+
+Log: $5_Block: Structure not confirmed (Score=0)
+
+
+--- Page 4 of 16 ---
+
+HB-3: S3 total < 0 (Negative FVG)
+Approved rule: Negative S3 invalidates setup
+
+Action: X BLOCK
+log: S3_Invalidation: Negative FVG quality (Scorece)
+
+HB-4: Tier 4 = INCOHERENT
+If coherence engine says conflicts are too strong.
+
+‘Action: X BLOCK
+Log: Tier4 Block: Incoherent - {PillarsFailed)
+
+
+--- Page 5 of 16 ---
+
+3) Soft Gates / Wait Conditions (Not a Block, but “Not Yet”)
+Soft gates mean the setup is potentially valid, but the framework asks you to wait for completion.
+SG-1: S4 Unswept Liquidity (Semi-gate)
+
+Approved rule: If liquidity pool exists and is not swept, prefer waiting.
+
+Action
+
+. WAIT
+Upgrade condition:
+
+liquidity sweep + reclaim occurs, OR
+“structure confirms a clean continuation without needing sweep (rare case)
+Log
+
+S4_nait: Liquidity visible but unswept. Wait for sweep/reclaim.
+
+
+--- Page 6 of 16 ---
+
+SG-2: S5 Weak (Score 1-3)
+\pproved rule: S5 1-3 requires strong S2 + strong S4.
+
+Action: 1. WAIT or Conditional Execute (only if S2 and S4 are strong)
+Upgrade condition:
+
++ $S improves (clear BOS/CHoCH), OR
+* Strong confluence: S2 > strong band AND S4 2 strong band AND S6 supportive
+Log:
+
+SS_SoftGate: Weak structure (1-3). Needs strong s2+S4.
+
+SG-3: Tier 1 = WAIT (Market/Sector/Event)
+
+‘Market or Sector says environment is not ready, you do not force entries
+
+Action: 4. WAIT
+Upgrade condition: specified by the gate (e.g, index sweep, sector BOS, event passes)
+Log
+
+{GateName} - {ConditionToPass}
+
+
+--- Page 7 of 16 ---
+
+4) Module “Authority Ranking” (Who wins in conflicts)
+
+‘en two components disagree, use this authority order:
+
+A-Order (Highest to Lowest Authority)
+
+Tier 1 Gates (market/sector/event)
+S5 Structure (core validation)
+
+3. S4 Liquidity completion (sweep logic)
+
+4. S2 HTF zones (context anchor)
+
+6 Participation (confirms “real money’)
+
+5. Tier 3 Enhancements (MTAL/Peers/ROC/RSI/S7)
+S3 FVG (precision only, not core)
+
+ation: A perfect FVG (S3) cannot override weak structure (S5).
+
+ong stock signal cannot override a blocked market regime gate
+
+
+--- Page 8 of 16 ---
+
+5) Core Evaluation Sequence (Exact Order)
+Use this as the engine pipeline. You can treat it as your “decision algorithm”
+
+Step 1— PO: Data Integrity
++ If critical missing/corrupt + BLOCK
+
++ Ifnon-critical missing -- continue with reduced confidence
+
+Step 2— P1: Tier 1 Gates
+Evaluate in order:
+1. Market regime/structure gate
+2. Sector regime gate
+
+3. Stock eligibility (liquidity/universe)
+4. Event calendar gate
+
+Outcomes:
+
++ BLOCK — stop
+
+* WAIT ~ stop (only send conditional alert)
++ PASS — proceed
+
+
+--- Page 9 of 16 ---
+
+Step 3 — P2: Tier 2 Core Scoring
+Evaluate:
+
++ S2(OB zone)
+
++ S4 (liquidity/sweep)
+
++ S5 (structure)
+
++ S3(FVG refinement)
+
+* S6 (volume/delivery/institutional fingerprint)
+Apply hard blocks during this stage:
+
++ S5=0 - block
++ S3<0 + block
+
+Step 4 — P3: Tier 3 Enhancements
+Compute:
++ MTAL
+
++ Peers
++ ROC
+
+RSI divergence (only in OB context)
++ ST (Fil context)
+
+
+--- Page 10 of 16 ---
+
+Enhancements attect conviction but cannot revive a blocked setup.
+
+Step 5 — P4: Tier 4 Coherence
+Output:
+
++ COHERENT — execute permitted
++ PARTIAL ~ wait / conditional
+‘+ INCOHERENT - block
+
+Step 6 — PS: Tier 5 Strategy Selector
+Based on:
+
+* Direction
+
++ Conviction band
+
++ IVP
+
++ Coherence state
+Output:
+
++ Vehicle: Cash vs Options
+* Strategy: debit/credit spreads etc.
++ “Wait” conditions if not executing
+
+
+--- Page 11 of 16 ---
+
+6) Invalidation Rules (Setup becomes invalid even mid-way)
+
+These are ‘kill switches” that can trigger after a setup looked good.
+
+INV-
+
+‘ailed BOS (Exit Signal Rule)
+
+proved rule: Failed BOS = exit / invalidate continuation
+
+jager: price re-enters structure aggressively and breaks the BOS premise
+Action: exit (ifn trade) / do not re-enter until new structure forms
+log: $5_Invalidation: BOS failed - exit / reset structure
+
+
+--- Page 12 of 16 ---
+
+INV-2: S6 Negative / Trap Signature
+When participation suggests distribution/churn,
+Typical triggers:
+
++ volume spike + delivery weak
++ climax after extended move (contextual)
+* trades surge + ATS drops (retail frenzy)
+
+Action: downgrade to WAIT or BLOCK depending on severity
+Log: Sé_TrapRisk: Participation inconsistent - {Signature}
+
+INV-3: Event risk suddenly appears
+Unexpected announcement / scheduled event newly identified.
+
+Action: shift to WAIT/BLOCK depending ‘on severity
+Log: Event_tnvalidatios
+
+New event risk - {Event}
+
+
+--- Page 13 of 16 ---
+
+7) ‘Execute vs Wait vs Block” Decision Matrix (Simple)
+
+EXECUTE if ALL true:
+
++ Tier 1 = PASS
+
++ S52 4(or $S1-3 only with strong $2454 confluence)
++ 'Sé.n01 in unswept liquidity wat state
+
++ SBnot negative
+
++ Tier d = COHERENT
+
++ Nomajor S6 tap signature
+
+1. WAIT if ANY of these:
+
+Tier t = WAIT                 oy
+
+‘4 unswept liquidity
+
+‘S5 weak (1-3) without strong $2454 backup
+
+Tier 4 = PARTIAL
+
+vent window approaching (not a hard block but high uncertainty)
+
+
+--- Page 14 of 16 ---
+
+>< BLOCK if ANY of these:
+
++ Tier = BLOCK
++ S5=0
++ S3<0
++ Tier 4 = INCOHERENT
+
+8) Weightage Philosophy (How to treat “importance”)
+
+Even though you score modules, the real “weight” in decisions is:
+
++ Highest decision weight: Tier 1+ S5.4 Tier 4
+
++ Highest confidence amplifier: S6 (Institutional fingerprint)
+
++ Highest contextual anchor: S2 (Monthly/Weekly OB dominance)
++ Highest “entry optimization”: S3 (precision only)
+
++ Macro context enhancer: S7 + peers/ROC/MTAL
+
+Practical rule:
+Structure + liquidity completion + participation must tell the same story
+
+
+--- Page 15 of 16 ---
+
+9) Standard Logging (Audit Trail Template)
+Every evaluation should output
+A) Final State
+
+EXECUTE / WAIT / BLOCK
+
+B) Reason (Top 3 drivers)
+
+Example:
+
++ Drivert: S2 At Monthly+Weekly demand
++ Driver2: S4 deep sweep + reclaim
+
++ Drivers: S6 ATSt Trades! DeliveryRoct
+) Block/Wait Conditions
+WATT:
+
++ Condition: Index must reclaim daily structure
++ Condition2: Liquidity below range must be swept
+
+
+--- Page 16 of 16 ---
+
+D) Red Flags
+
++ RedFlag: S6 clinax risk
++ Rear
+
+event tomorrow
+
+&) Data Confidence Flag
++ Dataquality: High / Medium / Low
+
+10) Quick “Override” Cheat Sheet (Most used rules)
++ Tiert BLOCK overrides everything =
+overides everything —
++ 530 overrides everything —
++ S4.unswept liquidity overrides “early entry urge ~ 1, wait
++ Tierd incoherent overrides high scores +
+* S6 strong institutional can upgrade confidence, not override blocks ~ EQ confidence only
++ Enhancements (Tier3) never override structure/iquidity gates
+
+= supportive only

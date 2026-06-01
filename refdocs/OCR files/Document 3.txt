@@ -1,0 +1,141 @@
+OCR TEXT FOR: Document 3.pdf
+Source type: scanned-image PDF
+OCR note: Recognition may contain errors because originals are photographed/scanned screenshots. Verify critical values against the source PDF.
+================================================================================
+
+
+--- Page 1 of 8 ---
+
+& Document 3: S3 — FVG & Preci
+Refinement (Max Score: 8)
+
+1) Overview
+
+Fafinerent module (NOT age)
++ Prpons improv entry preisn ddl ewerd by wating ei Von Gap VG inthe ight
+contest (sin around $208 / Demand Supply zones)
++ Max Score 8
++ Status 1 Approved
++ Precedence: Runs after 2.andits ber use is when it agns with S2 « S44 SS
++ Imprtan Principle:
+3 is nota gute Ave can exist without S3
+°X But negative S3 invalidates the setup (quality too poor / rape)
+
+
+--- Page 2 of 8 ---
+
+2) Definitions (Short + Practical)
+
+‘What is an FV (in your framework)?
+
+‘An FG iss pric imbalance created by dplcemant est move) whee pce sips on ren,
+Im practice, you wat asa precionretacement entry zone—but ons eal cen, and content
+backed
+
+3) Scoring Structure (Total
+
+Sie split 3 components:
+
+1 AVFVG Suength hae 4
++ 8 FV6-08 Contuence Moe 3)
+
+
+--- Page 3 of 8 ---
+
+A) Component A — FVG Strength (Max: 4)
+‘Ths checks fhe FV is mening etn! pacer oda se
+Al) Displacement Quality (Max: 2)
+
+score
+
++ 2 Strong dsplacerent rested he FV (age impulive candle er beak rom pice suet
++1 Moderate deplcemant
++0 Weak /choppy/unelearimbslance
+
+1 Logic Songer aptacement = high probabil that imbalance atracs a retrace il + cntnuaton
+
+
+--- Page 4 of 8 ---
+
+A2) FVG Size + Candle Quality Filter (Max: 2)
+Score:
+
++ 2 = Clean FVG with visible gap/imbalance and “proper candle bosies
++ 1 Small but stil valid if supported by S2/S4/S5 context
++ 0 Ignore: ‘Standalone’ tiny FVGs OR FVG created by small candies / messy chop
+
+ Mandatory Rule (Approved):
+
++ Standalone or small-candle FVGs are ignored
++ Fit looks like noi
+
+is noise
+
+B) Component B — FVG-OB Confluence (Max: 3)
+
+This is the most important part of S3.
+Your framework treats FVG as precision, but OB as the real institutional zone.
+
+B1) Location vs S2 OB/Zone (Max:2)
+Score:
+
++ 2=FVG lies inside / overlaps / originates from the S2 OB or Demand/Supply zone
++ 1=FVGis near the OB (close proximity, still usable)
++ 0 = Far from OB; no structural justification
+
+ Logic:
+FVG without 08 context has lower edge.
+FVG + 08 = “institutional footprint + precision entry.”
+
+
+--- Page 5 of 8 ---
+
+£82) Alignment with Liquidity Event (S4) or Structure (S5) (Max: 1)
+
+Sep Dien aac Ey
+
+C) Component C — FVG Freshness (Max:
+C1 Unfilled / Untouched FVG (Max 1)
+
+1 Oates tated mat tines
+use
+be 8 tethn—st ian  ap Aw VGo peion soe
+
+
+--- Page 6 of 8 ---
+
+4) Negative Scoring (iwvalidation Rules)
+agate Condon: pat)
+[iinet nergwnt yp
+Crane
+
+ed bemenpainSapi hn
+‘Seeoctoner ayant hae
+
+5) Final S3 Score Interpretation
+1 henry ng
+
+
+--- Page 7 of 8 ---
+
+6) Precedence & Interactions (How 3s USED)
+2 ssisnoTacate
+(2 but st improves Entry ality
+Shee
+—
++ na rae ba mom,
+
+iy Scale cn ty lea
+
+
+--- Page 8 of 8 ---
+
+8) Quick Examples (How youd apply)
+
+‘ample da ah Sep
+‘Set et ot
+1 Stadt raace cum pert
+
+$9) "What to gnore” Non negotiable Fier)
+1 xcretomady nana mcomatin
+Xeracoyncaped

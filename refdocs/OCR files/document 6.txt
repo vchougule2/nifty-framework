@@ -1,0 +1,274 @@
+OCR TEXT FOR: document 6.pdf
+Source type: scanned-image PDF
+OCR note: Recognition may contain errors because originals are photographed/scanned screenshots. Verify critical values against the source PDF.
+================================================================================
+
+
+--- Page 1 of 13 ---
+
+“| Document 6: S6 — Volume & Delivery Analysis
+(Institutional Fingerprint) (Max Score: 15)
+
+| rainy ght nhc med died ron vein “ths move
+| backed by institutions (real Participation) or just retail noise?”
+
+1) Overview
++ Code: S6
++ Ther: 2 (Core Rule)
+
+* Role: Detect institutional participation using Volume + Delivery + ROC + Trade microstructure (Avg
+trade size + trade count divergence)
++ Max Score: 15
+
+*+ Runs after S2/S4/SS contents known (zone + sweep + structure)
+* Acts 3 a conviction amplifier and aio 8 trap detector
+
+
+--- Page 2 of 13 ---
+
+2) Mandatory Pre-Filter (Rule 0): Block/Bulk Deal Handling (Mandatory)
+© Rule 0A — Mandatory Pre-Filter
+
+"today’s volume is dominated by reported block/bulk deal volumes, you must pre-fiter the data so
+you don't miscassty artificial volume spikes as institutional intent.
+
+  Rule 0B — Practical stance (as you said)
+
+* Most of the time, block/butk deals are ust “exchange of hands” and can distort conclusions.
+
+* Sethe framework treats them a: non-irectional unless they are confirmed by the other components,
+Outcome of pre-filtering:
+
++ S6 uses Adjusted Volume for comparisons:
+
+* Adjvol = Totalvel - BlockDesiVol ~ su1kDesiVol (where data availabe)
+
+'Wblock/butk data is not reliably available for a day, S6 stl work
+“lower confidence’
+
+but the signal quality is marked
+
+
+--- Page 3 of 13 ---
+
+3) S6 Scoring Structure (Total = 15)
+6 has components:
+
+1. C1_—Volume vs Mult-TF Averages (Max 3)
+
+2. €2— Delivery % Confirmation (Max 3)
+
+3. C3 — Volume Pattern Clasification (Max 2)
+
+4, C4—ROC Analysis (Vol ROC + Del ROC) (Max 3)
+
+5. C5— Institutional Fingerprint (Trade Microstructure) (Max 4
+
+
+--- Page 4 of 13 ---
+
+C1) Volume vs Multi-Timeframe Averages (Max: 3)
+
+Purpose
+
+‘To determine whether today's activity is unusual vs normal, and in which horizon
+
+Rule: Compare AdjVol (or TotalVol if not filtered) against:
++ 1 Week Avg
++ 1 Month Avg
++ 3 Month Avg
++ 6 Month Avg
+
+© Approved constraint: Use max 3 comparisons (to avoid overcounting)
+
+
+--- Page 5 of 13 ---
+
+© Approved constraint: Use max 3 comparisons (to avoid overcounting)
+
+Scoring (Max 3)
+Allocate up to 3 points based on how many horizons are meaningfully exceeded:
+
++ 41if AdjVol > 1W avg by a meaningful margin
++ 41 if AdjVol > 1M avg by a meaningful margin
++ +1if AdjVol > 3M or 6M avg by a meaningful margin
+
+Practical grading logic
++ fit beats only 1W avg ~ often just short-term noise               b
++ fit beats 1M + 3M/6M ~ suggests real institutional participation
+
+
+--- Page 6 of 13 ---
+
+C2) Delivery % Confirmation (Max: 3)
+
+Purpose
+Delivery is key in India: it differentiates real accumulation from churn/speculation.
+
+Scoring (Max 3)
+
+Use up to 3 points with “stronger = more points”
+
++ 41 if Delivery% > recent average (1M baseline is best)
++ +1if DeliveryQty increases meaningfully vs 1W/IM
+
++ +1 if Delivery% rise is aligned with a bullish/bearish candle direction (contextual)
+
+ Key idea:
++ Volume
+
+jout delivery = often intraday churn
++ Volume + delivery rising = more likely accumulation/distribution
+
+
+--- Page 7 of 13 ---
+
+C3) Volume Pattern Classification (Max: 2)
+Purpose
+
+Classy the type cf volume event 0 you dnt mistake cimas/ei fr accumulation,
+ Approved patterns (max 2 points total, max 2 patterns):
+
+1. Dry-up (low volume contraction)
+2. Climax blow-off / exhaustion)
+3. Pulback volume behavior (healthy vs unhealthy)
+
+‘Scoring (Max 2)                         &
++ Dry-upnear demand / before breakout: +2 (strong constructive)
++ Healthy pullback (pullback on low volume after expansion) + 64
+
+* Climax sudden exreme volume after éxerided move) ~- 0 oF negative bia (sualy marks exhaustion)
+
+This component is where S6 avoids raps 2 cimax candle can look “institutional” but actualy be
+“Gistrbution/exhaustion”.
+
+
+--- Page 8 of 13 ---
+
+Work          Web
+
+C4) ROC Analysis — Volume ROC + Delivery ROC
+(Max: 3)
+
+Purpose
+Measure whether momentum is accelerating in the right participation metrics.
+
+© Approved rule: Delivery ROC is weighted higher than Volume ROC
+
+What you calculate
+
++ VolROC = ROC(AdjVol or Vol)
++ De1ROC = ROC(DeliveryQty or Delivery)
+
+Scoring (Max 3)
+
++ Tif VoIROC is positive and rising
++ 42 if DeIROC is positive and rising (heavier weight)                                                                    b
+
+Interpretation
+
++ VoIROC 1 but DelROC 1 -+ “hype / churn risk”
++ VolROC t and DelROC 1 -+ “real money participation”
++ DelROC T even when VoIROC fiat ~ stealth accumulation (often strong)
+
+
+--- Page 9 of 13 ---
+
+C5) Institutional Fingerprint (Trade Microstructure)
+(Max: 4)
+
+Tiss your signature institutional detection logic
+
+te uses
+
++ Avg Trade Size (ATS) (a proxy for big players)
++ Trade Count Divergence (volume vs number of trades)
++ Traded Value confirmation
+
+CSA) Avg Trade Size vs 1M Average (Max: 2)
++ 42if ATS today is meaningfully above 1M ATS average
+
++ if slightly above                      "
++ if normal/iow
+
+@ Logic:
+
++ Institutions execute in larger size; ATS jumps are a strong clue.
+
+
+--- Page 10 of 13 ---
+
+CSB) Trade Count Divergence Logic (Max: 2)
+This is your approved “big player signature":
+
+© If: Vol 1, Delivery 1, Value t, but Trades
++ it suggests fewer but bigger trades ~ institutional activity
+Scoring
+
++42 if this signature is clean and strong,
+
++ +1if partial (eg, trades flat, but ATS jumps)
++ Oiftrades rise along with volume (often retail crowd participation)
+
+This
+
+show you separate
+«Reta frenzy = many trades + high volime
++ tnsttutionl accumulation = fewer trades + higher value + higher dlvery
+
+
+--- Page 11 of 13 ---
+
+4) S6 Total Scoring Summary (Max 15)
+
+DO Sy pranten
+
+1 Volume vs avg (multi-tF)
+2 belivery % confirmation
+3 Ca Volume pattern classification max 2
+4 CA ROC analysis (Del ROC > Vol ROC) max 3
+5 GS Institutional Fingerprist       axe
+7 TOTAL S6 scone                 wae 5
+
+5) Final Interpretation Tiers (Approved)
++ 1345 9) Whale Confirmed
+
++ 10-12: Strong institutional
+
++ 7-9; © Moderate Institutional              &
++ 46: A. Weak /Reta-based
+
++ 0-3: @ Hollow Move
+
+Trap / Distribution Risk
+
+
+--- Page 12 of 13 ---
+
+6) Precedence & Interactions (How S6 is USED)
+(© With S2 (0B zones)
++ S6 confirmation at/near OB touch makes the OB "alive".
+ With S4 (Sweep)
+* Sweep + rising delivery is powerful (stop-hunt + accurmulation.
+ With SS (Structure)
++ IFSS is weak (1-3), strong S6 can increase confidence but cannot override S5=0 hard block.
+ With S3 (FVG)
+
+4G entry precision; S6 tole whether the move bedi el
+
+
+--- Page 13 of 13 ---
+
+7) “Trap Detection” Rules (Practical)
+
+S6 often protects you from these:
+
+‘Trap A: Volume spike but delivery weak
++ Volt but Det | or Delay fat
+likely intraday churn
+‘Trap B: Climax volume after extended upmove
++ Vol extreme + wick + reversal context
+~ distribution tsk                   R
+Trap C: Trade count surges
++ Nols, Tades ATS 1
+~ retall rome participation ess elise)

@@ -1,0 +1,218 @@
+OCR TEXT FOR: Document 5.pdf
+Source type: scanned-image PDF
+OCR note: Recognition may contain errors because originals are photographed/scanned screenshots. Verify critical values against the source PDF.
+================================================================================
+
+
+--- Page 1 of 10 ---
+
+Document 5: S5 — BOS & CHoCH (Structural
+Confirmation) (Max Score: 10)
+
+1) Overview
+5 alec hr ra a cay dy
+od
+(pendmer on the cy tan ac fl rc aon
+1 sateaee
+
+(sete rd econ
+
+
+--- Page 2 of 10 ---
+
+2) Core Concept (Very Important)
++ 805 vs CHoCH (Your Practical Definition)
+0s rat Secu:
+
++ onto oa
+* Con ni ac
+
+3) Why S5 is Critical
+yo            F
+a
+
+ssuamyour
+
+
+--- Page 3 of 10 ---
+
+4) S5 Scoring Structure (Total
++ WS st Sil ae)
+
++m str ay ar)
+
++ mat Tnarme TF Coban 3)
+
+19)
+
+A) Component A — Structure Shift Signal (Max: 4)
+
+‘Al) CHoCH Detection (Max: 2)
+
++ 2 Cua O10 ate wp ong eel rah
+Bag
+Cece ft prota rnd might cng
+
+
+--- Page 4 of 10 ---
+
+‘A2) BOS Confirmation (Max: 2)
+
+ loge
+hoch shows nt 05 shows comitment
+
+B) Component B — Structure’ Quality (Max. 3)
+BY Break Strength (Max: 2)
+
+sear:                      i
++ 2+ ong ipa rea placement cane
++ 11 Sow gin weak a
+
+Fae brea flow tough)
+
+1 bogie:
+
+‘rang breaks indicate nsittona pipe
+
+
+--- Page 5 of 10 ---
+
+'82) Retost Behavior (Max: 1)
+Bove
+‘es cet he ety th rc
+
+C) Component C — MTF Structure Coherence (Max:
+3)
+
+CD Alignment Across Timeframes (Max 2)
+
++ 2 Smcnenstgm rm TT Te. how
+
+
+--- Page 6 of 10 ---
+
+C2) LIF BOS After Sweep Model (Max: 1)
++ 1 =UTF 805 occurs after sweep (S4)
+
++ 0 = Not present
+
+2 Approved Rule:
+
+|
+
+| TF 805 ate snep  intnional entry mde!
+
+5) Score Summary
+
+2A) Structare Shift Signal |x
+2 8) Structure Quality fox 3
+3. 6) MTF coherence       pre
+
+6) Soft Gate & Hard Gate Logic
+
+© Hard Gate
++ S5=0—NOTRADE
++ Structure not confirmed ~ setup inal
+
+
+--- Page 7 of 10 ---
+
+6) Soft Gate & Hard Gate Logic
+
+© Hard Gate
++ Souctre ot afin stint
+
+A Soft Gate
+sera
++ Regis:
++ song 820m)
++ Soong s4 (Smee)
+
+
+--- Page 8 of 10 ---
+
+7) Interpretation Tiers
++840 Song Sucre
++ High conicion evessVconoustion
++ 5:7 = Valid sven
++ Tabet contmation
++ tweak Souctre
++ Needs trong contac
++ 0 talid
++ XNowade
+
+8) Critical Approved Rules
+
+(© 1.17F 80s After Sweep = Institutional Entry Model
+"oe of your most power pattems
+
+BO S+ orm
+A Sane (5) + ATF 205 (S5) «entry
+
+© 2 Failed 805 « Ext Signal
+
++ 005 pce re tck pret)
++ ~intnaintent tted
+
++ sett
+
+
+--- Page 9 of 10 ---
+
+[2 3. MTF BOS Increases Conviction
++ 805 on multiple timeframes = strong directional move
++ bxample:
+
++ 15m 80S + 1H BOS + Daly bias aligned
+
++ = high confidence trade
+
+9) Practical Flow Integration
+S5 sts exact inthe mide of your logic
+
+Bo + dmanter
+
+2 S2 + rdantify 200
+2 S4 > Smep Hauisity
+3 S$-+ Confira structure snife ©
+4 S3 = precision entry
+
+5 S6 = validate participation
+
+10) Example Scenarios
+
+@ Ideal Reversal
+
++ Sweep below demand (S4)
++ CHOCH (oreak of LH)
+
++ 80S upward
+
++ Strong break + retest.
+
++S5 score:8-10 ©
+
+
+--- Page 10 of 10 ---
+
+A Weak setup,
+——
++ no car Coo
+
+Sean 0-2 X loch rey
+
+ Trap Scenario
++ 80S taper
+
++ Nettie gh
+
++ Qitymemd
+Fete 905 =X
+
+‘T1) What S5 Protects You From
++ Kang oy on Of cman tht afimtion
++ Mating contnaton see
+
++ ating napped ae ratts
+
++ rng sarees

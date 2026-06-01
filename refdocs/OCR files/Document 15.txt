@@ -1,0 +1,395 @@
+OCR TEXT FOR: Document 15.pdf
+Source type: scanned-image PDF
+OCR note: Recognition may contain errors because originals are photographed/scanned screenshots. Verify critical values against the source PDF.
+================================================================================
+
+
+--- Page 1 of 10 ---
+
+Document 15: One-Page Scoring Sheet
+
+(Fill-in Worksheet + Auto-Summary
+Template)
+
+(Vertical layout, no left-right scroting. You can paste this into Motes/Docs/Sheets as-is)
+
+—    aa)
+
+A) Header (Identity + Context)
+
+Date: _
+Stode               ‘Sector:               Indexc (Nifty / BankdVifty / Other) _
+Direction Hypothesis: (2 Bullish Gi Bearish Cl Neutral (rare)
+
+Data Source: C1 NSE Oi Backup (Yahoo/investing/t                 »
+
+Maneycontral)
+Data Confidence: Ci High C Medium © Low (missing fields / adjusted volume unavailable)
+
+B) PO — Data Integrity (Hard Gate)
+‘GO: Data Integrity Check
+
++ OHLC present? 3 Yes Cl No
++ Volume present? C Yes No
+Delivery fields present (if applicable)? C1 Yes 0 No O N/A,
+1 Tades / Traded Value present (for S6 microstructure}? O Yes ( NoO N/A
+* Obvious anomalies? (delivery% > 100, negative, missing date) CI Yes O No
+
+G0 Output:
+
+= pass
+
++ BLOCK (reason:
+
+©) Tier 1 — Gates (Market — Sector — Stock — Event)
+
+G2: Market Regime Gate (Index Context)
+
+Index near HTF demand/supply or clean trend? Q Yes O No
++ Market mid-range/chop/mixed? Gi Yes G1 No
+
+
+--- Page 2 of 10 ---
+
+‘+ Opposing HTF zone vs intended direction? Yes [1 No
+
+G2 Output: D PASS CI WAIT C1 BLOCK
+
+G3: Market Structure Gate (Index Liquidity + Structure)
+
++ Visible liquidity pool upsweat? C1 Yes 0 No
+
+‘+ Sweep + reclaim completed? Ol Yes 0 No
+
+‘+ QHeSH/BOS confirmed on index? O Yes 11 No
+
+‘Failed BOS / breakxiown against direction? (I Yes (I No
+
+G3 Output: OI PASS DI WAIT D1 BLOCK,
+Reason / Notes:
+WAIT Upgrade Condition:
+
+G4: Sector Regime Gate
+
++ Sector aligned with market direction? D Yes D No
+‘+ Sector structure broken / opposing HTF zone? (1 Yes (1 No
+Peer cluster supportive (majority peers aligned)? 1 Yes .No
+
+GA Output: O PASS DI WAIT CI BLOCK
+Reason / Notes:
+WAIT Upgrade Condition:
+
+G5: Stock Bligibility Gate
+
+«Universe preference: Nifty100? Ol Yes 0 No
+* Uquidity adequate (ayg vol, clean spreads)? C1 Yes 0 No
+
+‘+ Price extended far from HTF zones (needs pullback)? 0 Yes C1 No
+‘* Options liquidity OK (if options planned)? Cl Yes C1 No O.N/A
+
+G5 Output: C PASS C WAIT C1 BLOCK
+Reason / Notes:
+WAIT Upgrade Condition:
+
+
+--- Page 3 of 10 ---
+
+G6: Event Calendar Gate
+
+= Esmings within T-1 / Today? (I Yes 11 No
+© RBI/Macto high-tisk event today/tomorrow? [I Yes C1 No
+«Moderate event today (CPI etc)? 0 Yes C1No
+
+G6 Output: (1 PASS DI WAIT D1 BLOCK
+Reason / Notes:
+‘WAIT Upgrade Condition:
+
+© Tier 1 Final State (Stop/Go)
+
+fany gate = BLOCK ~ STOP (BLOGQ
+any gate = WAIT (and none BLOCK) — STOP (WAIT)
+{fall PASS ~ proceed to Tier 2 scoring.
+
+Tier 1 Final: Ci PASSO) WAIT C1 BLOK
+Top reasore
+
+D) Tier 2 — Core Scoring (S2-S6)
+Important Hard Rules:
+« IfS5 =O BLOCK
+
+© IfS3 <0 ~ BLOCK
+* _IfS4 unswept liquidity - WAIT (semi-gate)
+
+S2 — Stock-Level OB / Demand-Supply
+(Max 12)
+
+Component A: OB Quality (Max 7)
+
++ C1 Timetramne: Monthly 2 / Weekly 1 / Daily 0 ~ Score: _j2
++ €2 Displacement Strength ~ Scores _/2      7
+© C3 Fresnness (13t/2nd,    + Score: _/2
+
++ ANesting Month    Score: _/1
+
+
+--- Page 4 of 10 ---
+
+‘S2 Subtotal A:_/7
+‘Component B: Price Action Confirmation (Max 5)
+
+«C3 Rejection candle strength + Score: _/2
+‘© C6 Close confirmation ~ Score: _/2
+‘= C7-Volume confirmation at 08 touch Score: _/1
+
+‘S2 Subtotal B: /5
+
+(© S2 Total **/12"*
+
+Grade: A+ DAD BOCONo trade
+Notes:
+
+S3 — FVG Precision Entry (Max 8, can
+be negative)
+
+A) FVG Strength (Max 4)
+
++ At Displacement quality -_/2
+22 Size + candle quality ft (noe = 0) ~_/2
+
+B) FVG-OB Confluence (Max 3)
+
++ B1 Inside/near S2 zone + _/2
+ B2Aligns with S4/S5 narrative  _/1
+
+© FVG Freshness (Max 1),
+
+© C1 Untouched/unfiled = _/1
+S3 Total: _/8
+Penalty Gf any>: __
+
+Final S3:__ (can be <0)
+
+If Final S3 < 0 ~ BLOOK
+Notes:
+
+
+--- Page 5 of 10 ---
+
+S4 — Liquidity Sweep & Stop Hunt
+(Max 11)
+A) Liquidity Identification (Max 3)
+
+‘+, Al Liquidity poo! clarity _/2
+© A2Near S2 zone + _/1
+
+B) Sweep Status (Max 4)
+
++ B1 Wick takes liquidity + _/2
+‘+ B2Reclaim/dlose back inside + _/2
+
+© Sweep Depth (Max 3)
+
+‘* Cl Depth beyond liquidity —_/2
++ C2Speed of retum + 4/1)
+
+,     NN
+D) Inducement Check (Max 1)
+\
+«D1 inducement present = 1/1!
+
+‘SA Totak_/11                ‘
+
+4 Nd
+1. IF liquidity visible but not swept = WAIT
+
+S5 — BOS & CHOCH Structural
+Confirmation (Max: 10)
+
+A) Structure Shift Signal (Max 4)"
+
+(i
++ Al Giochi claty ~_p2),\
++ A2BOS confirmation —./2
+
+B) Structure Quality (Max 3)
+
+* 81 Break strength (displacement vs grind) ~ _/2
++ B2Retest holds +1
+
+
+--- Page 6 of 10 ---
+
+) MTF Coherence (Max 3)
+
++ CTHTF + LIF alignment + _/2
++ C2LTFEOS after sweep (institutional model) + _/1
+
+(© S5 Total: _/10
+
+© IFS5 = 0 — BLOCK
+
+S6 — Volume & Delivery Institutional
+Fingerprint (Max 15)
+Pre-filter (Mandatory)
+
+= Block/bulk deals filtered? Cl Yes CI No 0 Not Available
+«Using AgiVol? Cl Yes 11 No
+
+C1 Volume vs multi-TF avg (Max 3)
+
+* (Pick max 3 horizons: 1W/1M/3M/ 6M)
+Score: _/3
+
+(C2 Delivery confirmation (Max 3)
+« Delivery% vs baseline —_/1
+© DeliveryQty vs baseline + _/1
++ Delivery aligns with candle direction -+_/1
+Score: _/3
+C3 Pattern classification (Max 2)
+
++ Dry-up / Climax / Pulloack quality
+Score: _/2
+
+‘C4 ROC (Max 3) — Delivery ROC weighted higher
+
+* VolROC = _/1
+
+
+--- Page 7 of 10 ---
+
+C5 Institutional microstructure (Max 4)
+
+‘+ yg Trade Size vs 1M ayg = _/2
+‘+ Trade count divergence (Volt Delt Valuet Trades) = _/2
+‘Score: _/4
+
+[S6 Total: _/15
+
+‘Tier: CD Whale (13-15) Di Strong (10-12) 1 Moderate (7-9) 0 Weak (4-6) D Hollow (0-3) D1 Trap
+(negative)
+
+Notes:
+
+Tier 2 Core Summary
+
+« sep
++ S3:_/8 fina: __)
+ee
++ s&_/10
++ S&S
+
+Core Total (S2+S3+S4+S5+S6):__/ S6
+Core State: 0 Valid D1 WAIT 01 BLOCK
+Core Drivers (Top 3):
+
+2—
+
+E) Tier 3 — Enhancements (Support, not gates)
+
+E1 MTAL (Alignment)
+
+Score: _ (range suggestion: -2 to +3)
+Notes:
+
+£2 RSI Divergence (only at OB zones)
+
+1-2 to +3)
+
+£3 ROC (Momentum acceleration)
+
+
+--- Page 8 of 10 ---
+
+:_ (range suggestion: -2 to +3)
+
+E4 Peer Convergence (Sector/peers)
+
+Score: _
+Notes:
+
+{range suggestion: -2 to +3)
+
+‘S7 FII/FPI Context
+
+Impact: __ (typical: -3 to +5)
+Notes:
+
+‘Tier 3 Total Impact:__
+
+a
+F) Tier 4 — Coherence Checklist (6 Pillars)
+
+Mark each pillar:                                               |                         =
+
++ MTAL) ~ 0 Pass D Partial 01 Fail
+
++S5--S3--S6 story) + El Pass (I Partial O Fail
+
+3. Location validity (signals at right zones) ~ C1 Pass C1 Partial C Fail    My
+
+4 Participation integrity (S6 matches narrative) ~ Cl Pass Ci Partial Fail =
+
+5._ Environment support (peers/sector/ROC/S?) — (3 Pass C Partial Fel
+
+& Red fags (3 neg falled BOS, Gist, uosyeat ig) — None Bi Some Di Major
+
+Tier 4 Output: © COHERENT C1 PARTIAL  1
+Notes:               ak
+
+4 G) Final Decision (Single Line)!
+(& EXECUTE if:      re
+
++ Ter 1 PASS
+
++ No hard blocks (5540, $320)
++ Nownswept liquidity WAIT
++ Tier 4 COHERENT
+
+| WAIT if:
+
+
+--- Page 9 of 10 ---
+
+ANY
+
+es
+‘conviction: (1 Buy Call/Put Debit Spread
+convictione [ Creait Spread (Bull Put / Bear  *    i
+lidation     ed: on Condor (defined risk)
+
+
+--- Page 10 of 10 ---
+
+1) Ready-to-Send Telegram Message (Auto-fill
+Template)
+
+{STOCK} | {BULLISH/BEARISH}
+State: {EXECUTE / WAIT / BLOCK}
+
+Tierl: {PASSAVAIT/BLOCK}
+Reason: {one-line}
+
+‘Core:
+
+S2, {x12} | S3 (x/8} | S4 {a1} | 89 {x/10) | S6 {2/15}
+Davers:
+
+1) Dnverl}
+
+2) (Driver2}
+
+3) (Driver3}
+
+i | Pahoa.    1 iit il wilidi
+
+FROG {(4!- } [Peers {+/-} | RSI (+/-} | S7 {+}
+‘OHERENT}
+
+J) Quick Use Instructions (30 seconds)
+
+1. Fill Tier 4 gates firs. If WAIT/BLOCK — stop.
+2. If PASS ~ score S2-S6, applying hard blocks (S5=0, S3<0),
+3. Add Tier 3 enhancements,
+
+4, Run Tier 4 coherence (COHERENT/PARTIAL/INCOHERENT).
+5. If COHERENT — Tier 5 strategy selection by IVP.

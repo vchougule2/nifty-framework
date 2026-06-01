@@ -1,0 +1,315 @@
+OCR TEXT FOR: Document 8.pdf
+Source type: scanned-image PDF
+OCR note: Recognition may contain errors because originals are photographed/scanned screenshots. Verify critical values against the source PDF.
+================================================================================
+
+
+--- Page 1 of 17 ---
+
+Document 8: Tier 3 Enhancements — MTAL, RSI
+Divergence, ROC, Peer Convergence
+
+1) Overview
+
+3 Enhancements)
+
+*+ Role: Refine, confirm, or weaken Tier 2 signals
++ Nature: [@ Additive / deductive (no hard blocks)
+
++ Typical impact: £6 to #12 total depending on alignment
+
++ Precedence: Applied after S2-S6, before coherence (Tier 4)
+
+
+--- Page 2 of 17 ---
+
+2) Components Covered
+
+Tr Sincudes
+
+1. E1— MAL (Mult-Timeframe Alignment)
+
+2. E2—RSI Divergence (Validated Mode)
+
+3. E2—ROC (Momentum Acceleration Layer)
+
+4. E4— Pear Convergence (Sector Confirmation)
+
+
+--- Page 3 of 17 ---
+
+E1) MTAL — Multi-Timeframe Alignment
+@ Purpose
+
+Ensure trend alignment across timeframes
+
+ What You Check
+
+Timeframe                 Role
+Monthly                        Primary bias
+Weekly                    Confirmation
+Daiy                            Execution zone
+
+UrF asm)                   Enty timing
+
+
+--- Page 4 of 17 ---
+
+Scoring (Max: +3 / Min: -2)
+
+ull alignment (Monthly + Weekly + Daily same direction)
+HIF aligned (Monthly + Weekly aligned, Daily neutral)
+
++ 0 = Mixed signals
++ -1/-2 = Confict (HTF vs LTF opposite)
+
+ Core Logic (Your Style)
++ Monthly bias dominates everything
++ Weekly confims
++ Daily executes
+ Example:
+
++ Monthy bulls 08
++ Weekly bullish structure
++ Daly pullback
++ @ High conviction (MTAL +3)
+
+
+--- Page 5 of 17 ---
+
+E2) RSI Divergence (Validated Model @%)
+@ Purpose
+
+‘dentity reversal probability inside OB zones
+
+ Your Approved Constraint
+ Use ONLY on:
++ Weekly 08/05 zones
++ Strong S2 contert
++ 1 Backing
++ Bulkowsk study (19294 samples) v validated
+
+
+--- Page 6 of 17 ---
+
+Types
+
+Type             Meaning
+Bulls Divergence           Price {but RSI 1
+Bearish Divergence Price Tut RSL
+
+ Scoring (Max: +3 / Min: -2)
+
++ +3 Strong divergence at HTF 08
+
++ 42 = Clear divergence at valid zone
+
++ 41 = Weak divergence
+
++ 0= No divergence
+
++ -1/-2= Divergence failure (rend continuation risk)
+
+
+--- Page 7 of 17 ---
+
+Critical Rule
+
+X Ignore RSI divergence outside OB zones
+
+E3) ROC — Momentum Acceleration Layer
+@ Purpose
+
+Confirm whether momentum is building or fading
+
+ What You Measure
+
++ Price ROC across:
++ 1Week
++ 1Month
++ 3 Month
++ 6 Month
+
+
+--- Page 8 of 17 ---
+
+Core Logic (Your Idea (2)
+
+"Momentum is not static — acceleration matters”
+
+Scoring (Max: +3 / Min: -2)
++ 43= ROC increasing across multiple TFs @
++ 42= Positive momentum buildup
+
+Mid improvement
+
+Momentum divergence (weak move)
+
+ Key Insight
+
+ROC 1 + S6 strong ~ explosive move potential
++ ROC! + Volume t - possible distribution
+
+
+--- Page 9 of 17 ---
+
+E4) Peer Convergence — Sector Confirmation
+
+@ Purpose
+
+Validate stock move vs sector/peers
+
+ What You Check
+
++ Sector index performance
++ Peer stocks behavior (same industry)
+
+ Scoring (Max: +3 / Min: -2)
+
++ +3 Sector + majority peers aligned
+Sector aligned, some peers,
+
+Weak alignment
+
++ 0 Neutral
+
++ -1/-2 = Divergence (stock isolated)
+
+
+--- Page 10 of 17 ---
+
+Your Approved Logic
+
+| “stutonat money moves inclsters, not single stocks"
+
+ Example
++ IT sector showing
++ High delivery (your observation 1)
++ Multiple IT stocks rising
+~ {@ Strong Peer Convergence
+
+
+--- Page 11 of 17 ---
+
+3) Combined Tier 3 Scoring View
+
+2B Se WP mainter
+
+a EL TAL             mx
+2 ED RSI Divergence max 43
+> #2 RoC              mx 3
+4 Ed Peer Convergence max 43
+
+6 Typical Positive
+
+8 Negative Range        6 to-#
+
+
+--- Page 12 of 17 ---
+
+4) Interpretation
+
+Total Tier 3 Score               Meaning
+
++8t0 412                     x Strong enhancement (high-confidence setup)
+441047 Supportive
+
+0t0 +3                          Neutral
+
+“At0-3                  A, Weakening
+
+<4                              X Caution / possible trap
+
+
+--- Page 13 of 17 ---
+
+5) Interaction With Core Framework
+
+ Case 1: Strong Core + Strong Enhancements
+
++ 824544 SSstrong
++ Tier3 = +8
+> D A+ trade
+
+ Case 2: Moderate Core + Strong Enhancements
+
++ Tier3 strong
+ Trade becomes valid
+
+
+--- Page 14 of 17 ---
+
+X Case 3: Strong Core + Negative Enhancements
++ S2/84 strong but:
+
++ MTAL conflict
+
++ Sector not aligned
+
++ A Reduce aggression / wait
+
+X Case 4: Weak Core + Strong Enhancements
++ SS.weak (3)
++ Even ifTier 3 strong
+
++ X Cannot override structure weakness
+
+
+--- Page 15 of 17 ---
+
+6) Priority Order Inside Tier 3
+Most useful ~ Least:
+
+1. MTAL (highest importance)
+
+2. & Peer Convergence
+
+3. ROC
+
+4. RSI Divergence (conditional use)
+
+7) What Tier 3 Solves
+
++ Avoids counter-trend trades
+*+ Confirms sector-level moves
++ Identifies hidden accumulation phases
++ Filters false breakouts
+
++ Improves probability of success
+
+
+--- Page 16 of 17 ---
+
+8) Practical Example (Your Style)
+
+Scenario:
+
++ S2= Strong 08
+
++ S4=Clean sweep
+
++ S5= BOS confirmed
+Now Tier 3:
+
++ MTAL = +3 (all TF aligned)
+
++ ROC = +2 (momentum building)
++ Peer = +2 (sector moving)
+
++ RSI= #2 (divergence at 0B)
+
+a Total = +9
+
+© Result:
+
+| gh probability insttutonal wade x?
+
+
+--- Page 17 of 17 ---
+
+9) Final Key Principle
+
+ Tier 2 decides if trade exists
+ Tier 3 decides how strong its
+
+ Document 8 (Tier 3 Enhancements) is complete

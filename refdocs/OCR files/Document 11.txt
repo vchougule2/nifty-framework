@@ -1,0 +1,425 @@
+OCR TEXT FOR: Document 11.pdf
+Source type: scanned-image PDF
+OCR note: Recognition may contain errors because originals are photographed/scanned screenshots. Verify critical values against the source PDF.
+================================================================================
+
+
+--- Page 1 of 22 ---
+
+Document 11: Tier 1 — GATES (Market > Sector —
+Stock) + Event Calendar Gate
+
+Tier 1is your non-negotiable filter layer.
+\ Tier 1 fails, NO TRADE, even if Tier 2/3 scores look amazing.
+
+‘This document is structured exactly in the flow you asked for:
+
+Market ~ Sector ~+ Stock ~ Event Risk ~ Final Gate Output
+
+1) Overview
++ Tier: 1 (Gates / Hard Filters)
++ Purpose: Prevent trades when:
++ Market regime is hostile
++ Sectors not supportive
++ Stocks ina “wrong environment”
+
++ A major event can invalidate technical edge
+
+
+--- Page 2 of 22 ---
+
++ Output:
++ G@ PASS — proceed to Tier 2 scoring
+
+1. WAIT ~ monitor conditions; do not enter yet
++ € BLOCK — no trade; log reason
+
+Important: Tier 1 is designed to reduce false positives.
+Even a “Whale Confirmed” S6 signal can fail if the market environment is wrong
+
+
+--- Page 3 of 22 ---
+
+2) Tier 1 Gate Stack (Precedence Order)
+Gate order matters. This is your strict evaluation sequence
+1, G1 — Data Integrity Gate (no bad/partial data)
+2. G2 — Market Regime Gate (Index Context)
+3. G3 — Market Structure Gate (Index SMC/OB/Liquidity/Structure)
+| G4 — Sector Regime Gate (Sector Strength + Rotation Context)
+G5 — Stock Eligibility Gate (Liquidity/Universe/Tradability)
+G6 — Event Calendar Gate (Results/Macro/RBI/Global risk)
+7. G7— Correlation Shock Gate (Index volatility / gap risk) (optional but recommended)
+
+'f any gate = BLOCK -- stop immediately.
+
+
+--- Page 4 of 22 ---
+
+G1— Data Integrity Gate (4 (Hard Gate)
+
+Why it exists
+
+our framework is data-driven. Bad data = wrong signals.
+
+PASS criteria
+
+* EOD data available for:
++ Price (O/H/L/C)
++ Volume
++ Delivery (where applicable)
++ Trades / value (if used in S6 microstructure)
++ No missing or zero values where they shouldn't be
+
+* Adjusted volume logic (block/bulk filtering) not producing nonsense values
+WAIT/BLOCK criteria
+
+* WAIT: Missing one non-critical field (e.g, trade count) but price/vol/delivery are correct
+
+* BLOCK: Missing critical fields (price or volume) or obvious corruption (e.g. delivery% > 100
+
+
+--- Page 5 of 22 ---
+
+Output examples
+2 Z- “ranter
+1 G1 PASS: Valid 0D for OFLC, Volume, Delivery.
+
+2 GL WAIT: Trades data missing; continue with reduced S6 confidence.
+3. G1 BLOCK: Volume missing/zero -> cannot score framework reliably.
+
+
+--- Page 6 of 22 ---
+
+G2 — Market Regime Gate (Index Context) (4 (Hard
+Gate)
+
+This decides whether the overall market is:
++ Trending (momentum-friendly)
+
++ Reversal-ready (mean reversion opportunities)
++ Choppy (trap zone)
+
+What you evaluate (Index level: Nifty + relevant broad index)
+
++ Index in HTF Demand/Supply zone? (Monthly/Weekly)
++ Index volatility regime (high shock vs normal)
++ Index structure state (expanding, contracting, distribution)
+
+
+--- Page 7 of 22 ---
+
+PASS / WAIT / BLOCK logic
+
++ Index is near HF demand (for Lailish bis) or near HIF supply (for bearish bias), OR
+
++ Index is vending clean with stucture confirmation
+| WAIT when:
+
++ Indes is mid-range (ne HTF zone neatby) and choppy
++ Conflicting signals (e.g. weekly bullish but daily breakdown)
+
+2€ BLOCK when:
+
++ Index isin opposite HTF zone against your intended direction
+
++ Example: you want bullish swings but index is sitting inside Monthly supply
+
++ Extreme volatility / event shock day that destroys structure (gap-risk)
+
+Practical note (fits your style):
+
+Uf the market is not supportive, even the best stock setup becomes lower probability due to
+correlation.
+
+
+--- Page 8 of 22 ---
+
+G3 — Market Structure Gate (Index SMC + Liquidity +
+Structure) (&% (Hard Gate)
+
+This is where your S4 + S5 logic is applied at the index level
+
+What you check on Index:
+
++ Index liquidity sweep status near key HTF levels
++ Index 8OS/CHOCH confirmation on HTF/TF
++ Whether index is likely to continue sweeping liquidity first
+
+
+--- Page 9 of 22 ---
+
+PASS / WAIT / BLOCK
+
+© PAss if
+
+Index has completed a sweep + reclaim (S4-like behavior) and shows structure shift (S5-like behavior
+Or index is in clean continuation structure aligned with direction
+
+» WAIT if
+
+Liquidity is visible and not yet swept (semi-gate concept, but at market level)
+
+* Structure is unclear (no. BOS/CHoCH)
+
+BLOCK if:
+
+Index shows failed BOS / breakdown against your intended direction
+Index is making lower lows with no reversal evidence (for long bias)
+
+This is the “Don't fight the tape” gate.
+
+
+--- Page 10 of 22 ---
+
+G4 — Sector Regime Gate (Sector Strength +
+Rotation) (. (Hard Gate / Strong Gate)
+gate aligns perfectly with your "Market ~+ Sector ~+ Stock" scanning request.
+
+Inputs
+
+ector index trend/structure (IT, BANK, FMCG, AUTO, etc.)
+* Relative strength vs Nifty (outperformance/underperformance)
++ Sector-level delivery/participation (optional)
++ Rotation context from S7 (Fil lows if available)
+
+PASS criteria
+
+| PASS when:
+
+* Sector is aligned with market direction OR showing early reversal signs at sector HTF demand/supply
+* Sector peers broadly confirm (this links to Tier 3 Peer Convergence)
+
+WAIT when:
+
+* Sector is neutral but stock is exceptional (rare; allow only if Tier 2/3 are very strong later)
+* Sector is in consolidation and has not broken structure
+
+
+--- Page 11 of 22 ---
+
+BLOCK when:
+
++ Sector is structurally broken against intended trade direction
+* Sector is inside HTF opposing zone (eg, IT in Monthly supply; avoid longs)
+
+Sector Gate Rule of Thumb
+
+Prefer trading with sector tailwind; avoid isolated trades unless it's a special institutional footprint
+&
+setup.
+
+
+--- Page 12 of 22 ---
+
+G5 — Stock Eligibility Gate (Tradability / Universe /
+Liquidity) |. (Hard Gate)
+
+s ensures you don't waste signals on untradable names.
+
+Eligibility checks
++ Universe: Prefer Nifty100 (your “more realistic Fil universe” rule)
++ Liquidity: Adequate average volume / not illiquid
+* Options liquidity (if options strategies planned): tight spreads, good O1 (optional)
+> Price behavior: avoid extremely manipulated penny-type behavior
+PASS / WAIT / BLOCK
+PASS:
++ Stock is liquid, tradable, clean spreads
+
+WaT:
+
++ Tradable but extended far from zones (you often prefer pullbacks)
++ Corporate action / circuit-like behavior that distorts price action
+
+
+--- Page 13 of 22 ---
+
+BLOCK:
+
++ Iliquid stocks (signals unreliable)
++ Options iliquid (if strategy requires options)
+
+
+--- Page 14 of 22 ---
+
+G6 — Event Calendar Gate (4 (Hard Gate) (Planned
+enhancement you approved)
+
+s gate prevents taking trades when an event can:
+
++ cause gaps that invalidate structure
++ distort delivery/volume
+
++ create fake sweeps/BOS
+
+Event types (practical list)
+
+1, Company events: Results, guidance, major announcements
+2. Macro events: RB! policy, inflation/CPI, GDP, budget-type events
+3. Global shock events: major US Fed days, geopolitical escalation, crude shocks
+
+4, Index events: rebalancing days, expiry weeks (optional)
+
+
+--- Page 15 of 22 ---
+
+Event Risk (tear
+
+Use 2 simple, rules-based window:
+
+High-risk event (results/RBI):
+* BLOCK entries T-1 day and event day
+
+* WAIT until frst post-event session closes (structure re-forms)
++ Moderate-risk macro (CPI etc,):
+
+* WAIT on event day unless setup already mature with defined risk
++ Low-risk scheduled news:
+
++ No block, but flag caution in alerts
+
+
+--- Page 16 of 22 ---
+
++ No major event in the risk window
++ Or event passed and market printed stable structure after it
+
+4 WaIT:
+
++ Event within 24-48 hours (depending on severitf
+
++ Earnings tomorrow and setup is “almost ready”
+% BLOCK:
++ Earnings/RBI today or tomorrow and structure is not fully confirmed
+
++ High gap risk that can skip stops/entries
+
+Logging example
+
+Oh Se 6h paint
+
+2 G6 WAIT: Earnings tomorrow. Hold entry. Re-evaluate post-event close.
+2 G6 BLOCK: RBI policy day + index volatile. Skip all swing entries.
+
+
+--- Page 17 of 22 ---
+
+G7— Correlation Shock / Vola
+but Recommended)
+
+his is an “environment guardrail”
+
+When to enable
++ Index Vix/volatility is spiking
++ Frequent large gaps                                                                                               b
++ Broad market risk-off (heavy distribution days)
+
+Logic
++ If market shock is active:
+
++ Shift from "EXECUTE" to "WAIT" mode
++ Prefer defined-risk structures (spreads) if you still trade
+
+
+--- Page 18 of 22 ---
+
+3) The Full Market > Sector > Stock Flow (Tier 1 Pipeline)
+Here is your scan pipeline in a clean sequence:
+
+Step 1: Market Gate
+~ Check Index HTF zones (Monthly/Weekly OB)
+- Check: Index liquidity sweep status
+- Check Index structure (BOS/CHoCH)
+=> PASS / WAIT / BLOCK
+
+Step 2: Sector Gate
+- Select top aligned sectors (trend or reversal-ready)
+- Confirm rotation/relative strength
+=> PASS / WAIT / BLOCK,
+
+Step 3: Stock Eligibility
+- Universe filter (prefer Nifty100)
+- Liquidity /tradability filter
+=> PASS / WAIT / BLOCK
+
+Step 4: Event Gate
+- Earnings / macro / RBI window check
+=> PASS / WAIT / BLOCK
+
+If all PASS — move to Tier 2 scoring (S2-S6)
+
+
+--- Page 19 of 22 ---
+
+4) Tier 1 Output States (Standardized)
+© Pass
+
+* Environment supports trading
++ Proceed to Tier 2 scoring
+
+4, WAIT
+
++ Environment is not ready
++ Send “conditions required” alerts
+&
+
+>< BLOCK
+
+* Hard stop, do not score further
+* Log the reason and skip
+
+
+--- Page 20 of 22 ---
+
+5) Recommended “Wait Conditions” Templates (Actionable)
+When Tier T outputs WAIT, it must specify exactly what needs to happen,
+Examples:
+
++ WAIT (Market):
+
+“Index must sweep liquidity at X and reclaim”
++ "Need CHoCH on daily or 4H before longs”
+
++ WAIT (Sector):
++ “Sector needs BOS above range high”
++ “Peers must stop diverging"
+
++ WAIT (Event):
++ Wait for ea
+
+195; reassess next day close”
+
+
+--- Page 21 of 22 ---
+
+6) How Tier 1 Interacts with Your Core Rules
++ er Ti checked! before S2-S6.
+
++ Tier pases, then:
+
++ S2finds zones
++ S4confams sweep
++ SSconfims structure
++6 confirms institutions
+
++ Tie 1 prevents:
++ Great setups taken into inder resistance
++ Sectorsuntiendy trades
++ Ents right before event gaps
+
+
+--- Page 22 of 22 ---
+
+7) Minimal “Gate Config” (Clean and Non-Overcomplicated)
+HY you want Tier te stay lean (your preference, use only these 5
+
+1. Market HIF zone « structure
+
+2, Sector alignment
+
+3. Stock tradabilty
+
+4. Event calendar
+
+5. Data integrity
+
+Everything els can remain as “notes

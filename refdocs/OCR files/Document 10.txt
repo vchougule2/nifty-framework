@@ -1,0 +1,323 @@
+OCR TEXT FOR: Document 10.pdf
+Source type: scanned-image PDF
+OCR note: Recognition may contain errors because originals are photographed/scanned screenshots. Verify critical values against the source PDF.
+================================================================================
+
+
+--- Page 1 of 19 ---
+
+[No text recognized on this page.]
+
+
+--- Page 2 of 19 ---
+
+* Output:
+1. & Trade Allowed? (Yes/No/Wait)
+2. &@ Vehicle: Cash / Futures / Options
+3. Options Strategy Type (Directional / Hedged / Neutral)
+4. @ Strike selection guidance (rule, not exact strikes)
+5. © Alert template (Telegram + Sheet)
+
+
+--- Page 3 of 19 ---
+
+2) Tier 5 Precedence Rules (Hard First)
+
+Rule 1— Tier 4 must allow execution
++ Tier 4 = INCOHERENT -- X No trade, only log reason
++ Tier 4 = PARTIAL > 4b “Wait / Conditional Alert” mode
++ HW Tier 4 = COHERENT ~ proceed to strategy mapping
+
+Rule 2—Tier 1/ Tier 2 hard blocks cannot be overridden
++ S5=0- X Notrade
+
++ S3.<0— XX Invalid setup
+“+ Sé"unswept liquidity” semi-gate ~ usually WAIT, unless your rule exceptions apply (are)
+
+
+--- Page 4 of 19 ---
+
+3) Final Conviction Score (How Tier 5 sees the setup)
+
+Tier S expects a single final conviction number and a diction,
+
+Final Conviction = Core Score + Enhancements + Coherence modifier
+*+ Core Score: Sum of Tier 2 modules (S2-S6)
++ Enhancements: Tier 3 total (S7 + MTALU/ROC/Peers/RS!)
++ Coherence Modifier optional)
++ COHERENT: +1 (or no change)
+*+ PARTIAL: -2 (or Wait lag’)
++ INCOHERENT: block
+
+You can keep this simple: Coherence decides Allow/Wait/Block, no need to add points.
+
+
+--- Page 5 of 19 ---
+
+4) Strategy Selector Inputs (What Tier 5 needs)
+A) Direction
++ Bulish / Bearish / Neutral (rare in sing)
++ itecton i derived from:
++ S2zone type (demand/supph)
++ sructare direction (80S/CHoCH)
++ MIAL bias and S6 participation alignment
+
+B) Conviction Band (High/Medium/Low)
+
+‘Suggested bands (you can adjust ater once full scoring totals are finalized):
+
++ High Conviction: Top 20% of your historical scores (r fixed threshold like 75+/100 once normalized)
+“+ Medium Conviction: Middle band
++ Low Conviction: Barely pasing
+
+
+--- Page 6 of 19 ---
+
+©) IV Percentile (IVP)
++ Used to decide:
++ Buyer strategies (ow IVP)
++ Seller/credit strategies (high VP)
++ Defined risk when uncertainty exists
+
+
+--- Page 7 of 19 ---
+
+5) Core Mapping Logic (Vehicle Selection)
+5.1 Cash vs Options (High-Level)
+
+  Prefer Cash / Futures when:
+
++ You want clean swing exposure without V/Theta complesity
++ INPis extreme/unclear
+
++ Lguiity is poor in options
+
++ You want stress-free holding
+
+ Prefer Options when:
+
++ You want defined risk
+
++ Conviction is high but voatity regime supports a structure
++ You want leverage without margin complexity
+
+In your framework, options are primarily 2 vehicle, not a prediction too!
+
+
+--- Page 8 of 19 ---
+
+6) Options Strategy Mapping (Main Decision Engine)
+Tie 5 selects between 3 buckets:
+
+1, Directional (Debit / Long Premium)
+
+2, Directional with Hedge (Defined Risk Credit / Spreads)
+
+3. Neutral /Range (Income structures) — used only if your framework explicitly marks
+consolidation/range
+
+
+--- Page 9 of 19 ---
+
+6.1 Directional — Long Premium (Best when IVP is
+LOW)
+
+When touse
++ Direction Svongbulsvbeash
+
++ Convio: igh
+
++ VP Lom options lately cheap)
+
++ Expectation: pasion move comin (oten afer onsaldation + S6 cons)
+Strategies
+
+buts
+
++ Buy Cl simplest
+
++ Bull cal Spread (debit spread reduces cost)
+
+bes
+
++ buy Put
+
++ Bear Put Spread
+
+
+--- Page 10 of 19 ---
+
+Strike selection rules (non-hardcoded)
++ Prete ATM to sight ITM for ing beter deta reliability)
++ Avid fr OTM voles you explicitly accept low probability/high gamma bet
+
+&
+
+
+--- Page 11 of 19 ---
+
+6.2 Directional — Credit / Defined Risk (Best when IVP
+is HIGH)
+
+When to use
+
++ Direction: Bulish/bearish but not “explosive”
+
++ Conviction: Medium-High
+
++ IVP: High (options expensive)
+
++ Goal: Benefit from direction + IV mean reversion + theta
+Strategies
+Bullish
+
++ Bull Put Spread (sell put spread) @ Bearish:
++ Bear Call Spread (sell call spread)
+
+
+--- Page 12 of 19 ---
+
+Why this fits your framework.
+
+{fS6 says institutional participation is real but the market is volatile (high IV), spreads give you:
++ defined risk
+
++ better probability than naked options                                                                             ;
+— IVcrush risk (you're a net seller)                                                             _
+
+
+--- Page 13 of 19 ---
+
+6.3 Neutral / Range Structures (Only when your
+framework flags consolidation)
+
+When to use
+
+et 4 coherence says: setup is real but price likely ranges
++ S6 patter classification says dry-up and no structure breakout yet
+
++ Direction is unclear, but you expect time decay
+
+Strategies
++ Iron Condor (defined risk)
+
++ Short Strangle/Straddle (only if you accept higher risk; condor preferred)
++ Calendar spreads (if you expect IV change)
+
+In your philosophy, this bucket is used carefully. Your framework is primarily built for institutional
+swing moves, not pure income.
+
+
+--- Page 14 of 19 ---
+
+7) Additional Safety Filters (Execution Hygiene)
+
+Tier 5 applies execution fiters before sending "GO
+
+Filter A — Options Liquidity
+
++ Bid-ask spread too wide ~ avoid options, prefer cash
+
+Filter 8 — Event Risk (your planned addition)
+
++H major events near (results, RBI policy, Budget, big macro print),
++ Reduce aggression OR pick defined:risk spreads
++ Orwait until event passes (depends on IVP + coherence)
+
+Filter C — “Extended Move" filter (your trading style)
++ If prices far from S2 zone and S6 shows climax
++ Avoid long premium chasing
++ Wait for pullback to 08 or use spreads with better probability
+
+
+--- Page 15 of 19 ---
+
+8) Tier 5 Decision Output (3-State)
+
+Tier 5 produces one of these:
+
+© EXECUTE
+
++ Tier 4 coherent
+
+*+ Conviction band = mediumyhigh
+
+* Strategy mapped (cash/options + structure)
+
+1, WAIT / ALERT ONLY
+
++ Tier 4 partial OR semi-gate (unswept liquidity)
+
+* Sends “conditions to trigger entry” instead of entry call
+> BLOCK
+
++ Tier 4 incoherent OR hard blocks hit
++ Logs reason
+
+
+--- Page 16 of 19 ---
+
+9) Strategy Mapping Cheat Sheet (Quick Rules)
+
+If High Conviction + Low IVP
+© Long premium / debit spreads
+
++ Buy Call/Put or Call/Put spread
+If High Conviction + High IVP
+© Credit spreads (defined risk)
++ Bull Put Spread / Bear Call Spread
+|f Medium Conviction + Any IVP
+
+G Prefer:
+
++ Cash swing (if clean)
+
++ Or defined-risk spreads (avoid naked long options)
+
+
+--- Page 17 of 19 ---
+
+If Coherence = PARTIAL
+4. No entry, only conditional alert:
+
++ “Wait for sweep”
++ “Wait for BOS”
+
+* “Wait for S6 confirmation candle”
+
+
+--- Page 18 of 19 ---
+
+10) Telegram Alert + Google Sheet Logging (Audit Friendly)
+Telegram Alert Template
+
+BO S~ punt
+
+{serur}: (stock) | {ouLLISH/eeaRrs)
+2 Coherence: {COMERENT/PARTIAL/INCOMERENT)
+
+4 core (S2-S6): (score sumary)
+Enhancements (Ther3)= (summary)
+© Key Drivers: (Top 3 reasons)
+
+© Tiers pecision: (EXECUTE / WATT / #lo0K)
+
+2 Vehicle: (cash / options)
+
+1 Strategy: (Buy Call / Bull Call Spread / Bull Put Spread / ...)
+21 TWP: {value} | vol Regime: {LoW/ntO/itcH)
+
+13. Conditions ($F wart)
+38 + {Condition 1)
+15 (Condition 2)
+
+28 = (Any red Aags / event risk)
+
+
+--- Page 19 of 19 ---
+
+Sheet Log Columns (suggested)
+
+Date, Stock, Direction, CoreScore, EnhScore, Coherence, IVP, Decision, Strategy, Reasons, WaitConditions,
+
+Notes

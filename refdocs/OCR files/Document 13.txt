@@ -1,0 +1,297 @@
+OCR TEXT FOR: Document 13.pdf
+Source type: scanned-image PDF
+OCR note: Recognition may contain errors because originals are photographed/scanned screenshots. Verify critical values against the source PDF.
+================================================================================
+
+
+--- Page 1 of 14 ---
+
+“ Document 13: Market + Sector — Stock Decision
+Tree (PASS / WAIT / BLOCK)
+
+Goal: & vertical no let-ight scroll decision tre that you can ute for scaning and automation los.
+
+1) Output States (Standardized)
+
+* [PASS ~ Continue to mex stage (orto Tier-2 scoring fins gate posses)
++ A WAIT Do.not enter now generate conditions to upgrade to PASS
+
++X BLOCK ~ No trade stop evakation og reason
+BS
+
+
+--- Page 2 of 14 ---
+
+2) Stage 0 — Data Integrity Gate (PO)                                     -
+
+2 S- Vora
+1 [star]
+cl
+4: ona muTEcRITY
+sod
+© I TFC or Volume sissing/invalid -> sock
+7 |
+3 If oetivery/tradesivolue missing (non-critical) -> PASS (OataConfidencechedium)
+oo
+10 "s+ Else -> PASS (atacontidencestgh)
+PASS Criteria
+
++ OHLC + Volume present and valid
++ No abnormal values (delivery > 100, negative volume, etc)
+
+WAIT Criteria (rare here)
++ Typically not WAIT—either usable or blocked
+
+
+--- Page 3 of 14 ---
+
+BLOCK Criteria
++ Missing core fields (OHLC/Nolume),corupt rows, wrong dates
+
+3) Stage 1— MARKET GATE (Tier-1: G2 + G3)
+3.1 Market Regime Gate (G2)
+
+20 S- Ormtee
+
+2 G2: WARE REGIME (Trex Context)
+21
+
+3 [+ TA Index 45 An MIF opposing 2one ws Intended direction => atocx
+rea
+5 Ie TO trex 1s mé-range / choppy / mixed bias -> wart            1
+61
+
+2 "++ Af Index bias + location supports (MIF zone or clean trend) => PASS
+
+
+--- Page 4 of 14 ---
+
+PASS Examples
+* Index near HTF demand (bullish hunting zone)
+‘+ Index near HTF supply (bearish hunting zone)
++ Clean trend with structure intact
+WAIT Examples
++ Index in no-man's land (mid-range)
+* Conflicting MTF signals (weekly up but daly breaking down)
+BLOCK Examples
+‘+ Bullish trades while index is inside Monthly supply (opposing)
++ Extreme volatlity/shock regime (gap-tisks)
+
+
+--- Page 5 of 14 ---
+
+3.2 Market Structure Gate (G3) — Index SMC Check
+
+a     Sy oh Plain Text
+1c mater STRUCTURE (Liuiity + structure)
+3 [et eter tguity pont exists but HOF et -> wart
+5 ar structure brotan apne direction & falled 805 -> stock
++L ae sep conte + structreshIFE contiraed > PSs
+b        G Your core institutional sequence at market level:
+
++ Sweep (index) ~ CHoCH/BOS (index) ~ directional bias
+
+
+--- Page 6 of 14 ---
+
+4) Stage 2 — SECTOR GATE (Tier-1: G4)
+
+2 0 Se +h mainte
+
+1 Gaz SECTOR REGIME (Strength + Structure + Rotation)
+204
+
+3 [+= If Sector in HTF opposing zone / broken structure -> BLOCK
+al
+5 [+> TF Sector neutral or consolidating without trigger -> WAIT
+6
+7      AF Sector aligned + peers show strength -> PASS
+
+PASS Criteria
+
++ Sector structure aligns with market bias,
+* Sector shows early reversal at HTF zone OR continuation trend
++ Peer cluster moving (links to Tier-3 Peer Convergence)
+
+WAIT Criteria
+
++ Sector range-bound and no BOS/trigger yet
++ Peers mixed (some up, some down)
+
+
+--- Page 7 of 14 ---
+
+BLOCK Criteria
+
++ Sector breakdown / distribution regime
++ Sector sitting inside HTF opposing zone
+
+5) Stage 3 — STOCK ELIGIBILITY GATE (Tier-1: GS)
+
+DO Ze dh munten
+
+2 G6: Stock ELIGIBILITY (Universe + Liquidity + Tradability)
+21
+
+3 [+ TF liquid / manipulated behavior / poor spreads -> s10ck            1
+at
+5 |= 16 tradable but exrewoeD far ftom HTF zones -> WAIT
+61
+7‘ HF Liquid + clean -> pass
+PASS Criteria
+
++ Preferably within Nifty100 universe (your realistic Fl universe)
+
+
+--- Page 8 of 14 ---
+
+WAIT Criteria
+* Great setup but price is extended; you prefer pullback to OB/zone
+BLOCK Criteria
+
++ liquid (signals unreliable)
++ Options illiquid (if strategy requires options)
+
+
+--- Page 9 of 14 ---
+
+6) Stage 4 — EVENT CALENDAR GATE (Tier-1: G6)
+
+BO Se Mrmnten
+
+1 G6: EVENT RISK (Results / RBI / Macro / Global Shock)
+zo
+
+2 [es TF Migherisk event (earnings/t61) is today or tomorrow -> BLOCK oF MALT
+aot
+
+5 [= If moderate event today > MATT
+
+st
+
+7 AF no major event window -> PASS
+
+Rule of thumb (simple + practical)
+
++ Eamings/RBE:
++ T-1 & event day: WAIT/BLBCK (depending on risk appetite)
++ Re-evaluate after fist post-event close
+
+Outputs
++ PASS ~ continue
+
++ WAIT ~ “Hold entry; reassess post event”
++ BLOCK ~ "Skip; gap-risk invalidates structure edge”
+
+
+--- Page 10 of 14 ---
+
+7) & IfTier-1 passes + Move to Tier-2 Core Scoring (S2-S6)
+BR Se shrsnrn
+
+1 IF (69 PASS) AND (G2 PASS) AHO (G3 PASS) AHO (G4 PASS) AND (G5 PASS) AND (Cb PASS)
+2 => Proceed to Tier 2 scoring (S2-S6)
+
+£ => STOP (WAIT/BLOCK with reasons & conditions)
+
+5
+
+
+--- Page 11 of 14 ---
+
+8) Tier-2 / Tier-4 Quick Link (So the tree is complete)
+
+Once Tier-1 passes:
+
+3                           Tier-2 Core                                                          »
+4               + S2 (zones)
++ S4 (sweep)
+
++ S5 (structure) ~ S5=0 BLOCK
++ S3(FVG) ~ S3<0 BLOCK
++ S6 institutional fingerprint)
+
+Tier-4 Coherence output
+
+-5 execute mapping
+
+
+--- Page 12 of 14 ---
+
+9) “WAIT — PASS" Upgrade Conditions (Most Useful Part)
+When the scanner outputs WAT, it must output the exact trigger.
+
+‘Common WAIT conditions
+
+WAIT from Market (62/63)
+
++ “index must sweep liquidity at level X and reclaim”
+Index must show CHoCH on 4H/Daily”
++ "Need 8S confirmation after sweep”
+
+WAIT from Sector (G4)
++ "Sector needs 80S above range high”
++ "Peers must align (majority green + rising delivery)”
+WAIT from Stock Eligibility (G5)
+
++ “Wait for pullback to HTF 08 zone”
++ "Wat for first rejection candle at zone
+
+WAIT from Event Gate (G6)
+
++ "Wait for earnings; reassess post-event close”
+
+
+--- Page 13 of 14 ---
+
+10) Logging Template (Automation-ready, vertical)
+Use this exact structre to avold messy logs:
+2S Hmm
+
+1 SCA RESULT
+2 State: PASS / WAIT / BLocK
+
+3. Stage Failed: Go / 62 / 63 / 4 / 65 / 66
+4 eas
+
+5 - {one-Line reason)
+
+6 Conditions to Upgrade (only if WAIT):
+7 (condition 1)
+
+3. - {condition 2}
+
+9 ataconfidence: High / Hedium / Low
+
+
+--- Page 14 of 14 ---
+
+11) Super-Compact Version (for daily scanning)
+QOL Se Punter
+
+2 Market PASS?
+
+2 MIF zone aligned?
+3 Liquidity sweep complete?
+
+4 = structure confirmed?
+
+5
+
+5 Sector PASS?
+
+7 = Sector aligned + peers supporting?
+®
+
+9 Stock Pass?
+
+18 ~ Liquid + tradable + not extended?
+n
+
+32 Event PASS?
+
+13 = te high gap-risk event window?
+
+u
+
+15 + If all YES: score S2-S6 + enhance + coherence + strategy

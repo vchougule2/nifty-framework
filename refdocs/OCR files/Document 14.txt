@@ -1,0 +1,448 @@
+OCR TEXT FOR: Document 14.pdf
+Source type: scanned-image PDF
+OCR note: Recognition may contain errors because originals are photographed/scanned screenshots. Verify critical values against the source PDF.
+================================================================================
+
+
+--- Page 1 of 20 ---
+
+{= Document 14: Unified Framework Runbook
+(Single-Page Reference)
+
+A vertical no-left-right-scroll “operating manual” that consolidates everything: tiers, precederce, gates, scoring
+‘modules (S2-S6), enhancements, coherence, and final execute/wait/block output. Tis is meant to be your day-
+‘to-day checklist + automation blueprint.
+
+0) What This Runbook Produces (Final Output)
+Every scan ends with ONE of these:
+
++ @ EXECUTE (trade allowed: Tier 5 selects vehicle/strategy)
+1. WAIT (conditions not met yet; set alerts; no entry now)
++X BLOCK (hard stop; skip; log reason)
+
+
+--- Page 2 of 20 ---
+
+1) Absolute Precedence Order (Never change)
+PO ~ P5 isthe immutable evaluation order
+
+1, PO: Data Integrity
+
+2. Pk Tier 1 Gates (Market ~- Sector ~ Stock -- Event)
+
+3. P2: Tier 2 Core (S2-S6 scoring)
+
+4, P3: Tier 3 Enhancements (MTAL, RSI Div, ROC, Peers, S7)
+
+5, PA Tier 4 Coherence (alignment + conflict resolution)
+
+6. PS: Tier 5 Strategy Selector (Cash/Options + IVP mapping)
+
+Rule: No lower tier can override a higher-tier block.
+
+
+--- Page 3 of 20 ---
+
+2) Hard Blocks (Immediate NO TRADE)
+Itany of these trigger, stop evaluation:
+HB-1: Tier 1 Gate = BLOCK
++ Market hostile / sector broken / stock illiquid / event risk blocks
+HB-2: S5 =0
++ Structure not confirmed -+ invalid
+HB-3: S3 <0
+*+ Negative FVG quality - inval
+
+tion
+
+HB-4: Tier 4 = INCOHERENT
++ Conflicts too strong -+ reject
+
+
+--- Page 4 of 20 ---
+
+3) Soft Gates / WAIT Rules (Not a block, but “not yet”)
+
+SG-1: S4 Unswept Liquidity
++ Liquidity visite but not taken + WAIT
+
+* Upgrade only when sweep + reclaim completes (or continuation is proven clean—rare exception)
+
+‘SG-2: S5 weak (1-3)
+
+* Allowed only if S2 strong + S4 strong (and ideally S6 supportive)
++ Otherwise WAIT
+
+SG-3: Tier 1 = WAIT (Market/Sector/Event)
+
++ Environment not ready ~ WAIT with explicit upgrade conditions
+
+
+--- Page 5 of 20 ---
+
+4) Stage-by-Stage Operating Checklist (Daily Use)
+Stage A — PO: Data Integrity
+
+Gi Must have:
+
++ OHLC + Volume
+
++ Delivery fields where applicable (delivery qly/%, etc)
+
++ Trades/value if you're using microstructure in S6 (optional but helpful)
+Output:
+
++ PASS (High confidence)
+
+* PASS (Medium confidence if non-critical fields missing)
++ BLOCK (it critcal fields missing/corrupt)
+
+
+--- Page 6 of 20 ---
+
+Stage B — P1: Tier 1 Gates (Market ~ Sector — Stock — Event)
+
+Gate G2: Market Regime (Index context)
+
++ PASS: Index near HTF demand/supply OR clean trend
+
++ WAIT: Mid-range chop / mixed HTF-UTF signals
+
++ BLOCK: Index in opposing HTF zone vs your direction or shock regime
+Gate G3: Market Structure (Index sweep + structure)
+
++ PASS: Sweep completed + structure shift/confirmation
++ WAIT: Liquidity visible but unswept
++ BLOCK: Failed BOS / breakdown against intended direction
+
+Gate G4: Sector Regime
+
++ PASS: Sector aligned + peers supportive
+
++ WAIT: Sector consolidating / mixed peers
+
++ BLOCK: Sector broken /in opposing HTF zone
+Gate GS: Stock Eligibility
+
++ PASS: Liquid, tradable, ideally Nifty100 universe
++ WAIT: Great name but extended far from zones (prefer pullback)
+
+
+--- Page 7 of 20 ---
+
+Gate G6: Event Calendar
++ PASS: No major event
++ WAIT: Moderate event day or approaching uncertainty
+
++ BLOCK: High-risk earnings/RBI (today/tomorrow) unless your policy allows defined-risk exception
+
+ Hall Tier 1 gates PASS ~ proceed to Tier 2 scoring
+A. Hany WAIT ~ stop, send “conditional alert”
+X any BLOCK - stop, log reason
+
+
+--- Page 8 of 20 ---
+
+5) Stage C — P2: Tier 2 Core Scoring (S2-S6)
+
+Tier 2 answers: “Is this a real institutional swing setup?"
+
+(@ S2— OB / Demand-Supply Zone (Max 12)
+Role: Context anchor (HTF zones)
+Key biases:
+
+* Monthly > Weekly > Daily (higher TF more reliable)
++ Displacement strength matters
+
++ Freshness matters (frst touch best)
+
++ Nesting (Monthly+Weekiy) is sniper-grade
+
+Output: Score 0-12 + Grade (A+/A/B/C)
+
+
+--- Page 9 of 20 ---
+
+S3 — FVG Precision Entry (Max 8; can be negative)
+
+Role: Entry refinement, NOT a gate
+Rules:
++ Ignore standalone tiny/noisy FVGs
++ Prefer FVG inside/near S2 zone
++ Freshness matters
++ IfS3 <0 ~ hard invalidation
+
+ ‘S4— Liquidity Sweep / Stop Hunt (Max 11) (Semi-gate)
+Role: Confirms stop-run + reversal probability
+Rules:
+
++ Liquidity identification + sweep + reclaim
+
++ ‘Sweep depth + speed of return
+
++ Inducement check
+
++ Unswept liquidity —- WAIT
+
++ Deeper/longer sweep faster reversal (your rule)
+
+
+--- Page 10 of 20 ---
+
+S5— BOS & CHoCH (Max 10) (Hard gate inside Tier 2)
+
+Role: Final structural validation,
+Rules:
+
++ CHOCH = intent
+
++ BOS = commitment
+
+* Retest holds = quality
+
+‘+ MIF coherence matters
+
++ /S5=0 BLOCK
+
++ $5143 ~ soft gate (needs strong S2+S4)
+
++ LIF 60S after sweep = institutional entry model
++ failed BOS = exit signal
+
+
+--- Page 11 of 20 ---
+
+(© S6— Volume & Delivery Institutional Fingerprint (Max 15)
+
+Role: Detects real money participation vs retail churn
+Mandatory: Block/Bulk deal volume pre-fiter where available
+
+‘Components:
+
++ C1 Volume vs multi-TF averages (IW/IM/3M/6M; max 3)
+
++ C2 Delivery confirmation (max 3)
+
++ C3 Pattern classification (dry-up/climax/pullback; max 2)
+
++ CAROC (Delivery ROC weighted higher; max 3)
+
+*+ C5 Institutional microstructure (Avg Trade Size + Trade Count divergence; max 4)
+
+Tier bands:
+
++ 13-15 Whale Confirmed
++ 10-12 Strong Institutional
++ 7-9 Moderate
+
++ 4-6 Weak/Retail
+
++ 0-3Hollow
+
++ Negative = Trap risk
+
+
+--- Page 12 of 20 ---
+
+6) Stage D — P3: Tier 3 Enhancements (Add/Subtract Conviction)
+
+Enhancements support the decision but never override hard blocks.
+
+£1 MTAL (MTF Alignment)
+
++ Conflicts reduce conviction; alignment boosts confidence.
+
+£2 RSI Divergence (Conditional)
++ Use mainly at weekly OB/OS zones (validated approach)
++ Outside zones: ignore
+
+£3 ROC Layer (Momentum acceleration)
+
++ Cross TF ROC improvement supports continuation/reversal strength.
+
+E4 Peer Convergence (Sector/peers)
+
++ Institutional money moves in clusters; peer alignment adds confidence.
+
+
+--- Page 13 of 20 ---
+
+‘S7 FI/FP| Momentum (Contextual)
++ Use net + gross + rotation logic
++ Do NOT interpret net buy as next-day bullish guarantee
+* Consolidation accumulation thesis: Fils can hide accumulation in ranges
+
+
+--- Page 14 of 20 ---
+
+7) Stage E — P4: Tier 4 Coherence (Alignment Engine)
+Tier 4 checks 6 pillars:
+
+1. Directional agreement (S2/S4/S5/S6 + MTAL)
+2. Sequence integrity (S2 — S4 + S5 — S3 = S6 narrative)
+3. Location validity (signals happening at correct zones)
+4, Participation integrity (S6 matches the story)
+5. Environment confirmation (peers/sector/ROC/S7 support)
+6. Red flags (S3 negative, failed BOS, S6 climax distribution, unswept liquidity)
+
+Tier 4 Output:
+
++ @ COHERENT ~ allowed
++ 4, PARTIAL + WAIT + conditions
++ € INCOHERENT + BLOCK
+
+
+--- Page 15 of 20 ---
+
+8) Stage F — P5: Strategy Selector (Cash/Options + IVP)
+Only executes if Tier 4 is COHERENT.
+
+Strategy mapping by IVP + conviction:
+
++ High conviction + Low IVP -+ Long premium / Debit spreads (calls/puts/spreads)
++ High conviction + High IVP -+ Credit spreads (bull put / bear call spreads)
+
++ Medium conviction ~ Prefer cash or defined-risk spreads
+
++ PARTIAL ~ no execution, only conditional alert
+
+ Your constraint maintained:
+
++ No hardcoded SL/entry/exit/position sizing (manual control)
+
+
+--- Page 16 of 20 ---
+
+9) Final Decision Rules (Single Box Summary)
+
+(© EXECUTE if:
+
++ Tier 1 PASS
+
++ SS>4(or1-3 with ‘strong S2+S4 confluence)
++ S4 not in unswept-liquidity WAIT
+
++ S3 not negative
+
++ Tier 4 COHERENT
+
++ No major S6 trap signature
+
+t WAIT
+
++ Any Tier 1 WAIT
++ S4unswept liquidity
+
++ S1-3 without strong S2+S4 backup
+* Tier 4 PARTIAL
+
++ Event approaching and structure not fully confirmed
+
+
+--- Page 17 of 20 ---
+
+X BLOCK if:
++ Any Tier BLOCK.
+
++ 3<0
++ Tier 4 INCOHERENT
+
+
+--- Page 18 of 20 ---
+
+10) Telegram Alert Template (Clean + Auditable)
+
+{STOCK} | {BULLISH/BEARISH}
+State: {EXECUTE / WAIT / BLOCK}
+Tier!: {PASS/WAIT/BLOCK} | Reason: {one-line}
+
+Core Score Summary:
+~ S2: {x/12} | S4: {x/11} | S5: {x/10} | S3: {2/8} | S6: {x/15)
+Key Drivers:
+1) {Driver 1}
+2) {Driver 2}
+3) {Driver 3}
+
+Enhancements:
+i MTAL: {+/-} | Peers: {+/-} | ROC: {#/-} | RSI: {+/-} | S7: (4/-}
+
+Coherence: {COHERENT/PARTIAL/INCOHERENT}
+IVP: {value if available}
+
+TierS Plan (if EXECUTE):
+
+- Vehicle: {Cash/Options}
+
+- Strategy: {Call/Put/Spread name}
+Notes: {Event risk / trap flags}
+
+If WAIT > Conditions:
+- {Condition 1}
+- {Condition 2}
+
+
+--- Page 19 of 20 ---
+
+11) Google Sheet Log Columns (Suggested)
+
+DO Ze Danton
+1 bate
+
+2. Stock
+
+3 Direction
+
+4 Tiert_state
+
+5 Tiers Reason
+
+6 s2.score
+
+7 sascore
+
+8 sa score
+
+9 S5 Score
+
+10 S6 Score
+
+11 Enh score Total
+
+12 Coherence state
+
+13, Decision (EXECUTE/MATT/BLOCK)
+1 Strategy (if any)
+
+13 1
+
+16 Toporivers
+
+17 waitconditions
+
+18 RedFlags
+
+19. ataconfidence
+
+
+--- Page 20 of 20 ---
+
+12) What You Now Have (Document Set Completion)
+You now have:
+
++ G Architecture (Doc 1)
+
++ © S2-S6 full logic/scoring (Docs 2-6)
+
++ @S7 (Doc 7)
+
++ © Tier 3 enhancements (Doc 8)
+
++ Tier 4 coherence (Doc 9)
+
++ Tier 5 strategy selector (Doc 10)
+
++ G Tier gates + event gate (Doc 11)
+
++ © Unified precedence (Doc 12)
+
++B Market--Sector-Stock decision tree (Doc 13)
++ © This consolidated runbook (Doc 14)

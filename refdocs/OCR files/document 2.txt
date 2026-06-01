@@ -1,0 +1,196 @@
+OCR TEXT FOR: document 2.pdf
+Source type: scanned-image PDF
+OCR note: Recognition may contain errors because originals are photographed/scanned screenshots. Verify critical values against the source PDF.
+================================================================================
+
+
+--- Page 1 of 11 ---
+
+(=| Document 2: S2 — Stock-Level OB &
+Demand/Supply Zone
+
+® Overview
++ Code: s2
++ Tier:2 (Core Rule)
+
+* Role: Identifies and scores Order Blocks (OB) and Demand/Supply zones at the stock level
++ Max Score: 12
+
++ Status: (2 Approved
+
+* Precedence: Core scoring — evaluated after Tier 1 gates pass
+
+
+--- Page 2 of 11 ---
+
+3 Component A — OB Quality (Max: 7)
+
+Timeframe Weight (Max 2)
++ Monthly O8 = 2 pts
+
++ Weekly 08 = 1 pt
+
++ Daily OB = Opts
+
++ # Logic: Monthly O8s are far more reliable than Weekly/Daily. Higher TF = stronger institutional footprint
+
+C2: Displacement Strength (Max 2)
++ Strong displacement (3%+ move away from OB) = 2 pts
++ Moderate displacement (1-3%) = 1 pt
++ Weak displacement (<1%) = 0 pts
++ # Logie: The displacement after OB defines how strong the institutional intent was. Stronger move = more
+
+
+--- Page 3 of 11 ---
+
+C3: OB Freshness (Max 2)
+* First touch (unmitigated) =
++ Second touch = 1 pt
++ Third+ touch = 0 pts (mitigated — ignore)
+
++ # Logic: Fresh OBs hold better. Each retest weakens the zone as orders get filed
+
+pts
+
+(C4: Nesting / MTF Confluence (Max 1)
++ Monthly + Weekly nested 08 = 1 pt
++ SingidRimeframe only = 0 pts
++ # Logic: Nested zones (eg, Nifty 22,200 Monthly+Weekly demand) are highest conviction sniper entries
+
+
+--- Page 4 of 11 ---
+
+© Component B — Price Action Confirmation (Max: 5)
+
+CS: Rejection Candle at OB (Max 2)
+
++ Strong rejection wick (hammer / shooting star) = 2 pts
++ Moderate rejection = 1 pt
+
++ No rejection = 0 pts
+
++ # Logic: Price action at the zone confirms institutional defense of the level
+
+Candle Close Confirmation (Max 2)
+
++ Close above demand / below supply with full body = 2 pts
+
++ Closel}pside OB zone = 1 pt
+
++ Close against OB direction = 0 pts
+
++ # Logic: Where the candle closes matters more than the wick. Body close = commitment
+
+
+--- Page 5 of 11 ---
+
+C7: Volume Confirmation at OB (Max 1)
++ Above-average volume at OB touch = 1 pt
++ Below-average volume = 0 pts
++ # Logic: Volume confirms participation. Low volume touch = weak defense
+
+
+--- Page 6 of 11 ---
+
+al Scoring Summary
+Component A (OB Quality):
+Cl Timeframe Weight
+
+> Max 2
+C2 Displacement         > Max 2
+C3 Freshness            > Max 2
+C4 Nesting              > Max 1
+—____
+Subtotal A            > Max 7
+
+Component B (Price Action):
+C5 Rejection Candle
+
+> Max 2
+C6 Candle Close         > Max 2
+C7 Volume at op         > Max 1
+if!
+Subtotal B              > Max 5
+
+TOTAL s2 SCORE          > Max 12
+
+
+--- Page 7 of 11 ---
+
+‘& Grading Tiers
+
++ As (10-12) Highest conviction 08 setup
+
++ A(I-9): Strong setup, trade wth confidence
+
+18 (4-6): Moderate — needs Ter 3 enfancement support
+
++ C3): Weak — ike sip unless other signals are exceptional,
++ No Trade (<0}: Do not trade
+
+
+--- Page 8 of 11 ---
+
+A Key Rules & Interactions
+
+1. Monthly > Weekly > Dai
++ Monthly 08s carry the most weight
++ Aways check higher TFO8 fist
+
+2. Nesting = Sniper Entry
++ When Monthly + Weekly OB overlap (e.g, Nifty 22,200 zone), it’s the highest conviction entry
+
+&
+
++ An OB without strong displacement is just a candle, not an institutional footprint
+
+4, Freshness decays
++ Each retest fills pending orders
++ Third touch or more
+
+zones spent
+
+
+--- Page 9 of 11 ---
+
+5. Price Action is mandatory confirmation
++ OBalone is not enough
++ Need rejection + close + volume to confirm
+6. Interaction with S5 (BOS/CHoCH)
++ S2 score becomes critical when SS = 1-3 (soft gate)
++ Strong S2 + strong S4 can compensate for weak SS
+7. Interaction with S3 (FVG)
++ FVG near O8 = reliable (approved S3 rule)
++ Standalone FVG without OB context idlweaker
+
+
+--- Page 10 of 11 ---
+
+@ Cross-References
+
++ S3uses $24.08 zane for FVG-08 confuence scoring
+
++ Sdenecisitiquiiy was swept near S2 0B zone
+
++S5 805/CHecH ater 08 touch = structural confirmation
+
++ S6volume/delivery at O8 touch validates instutional presence
+
+
+--- Page 11 of 11 ---
+
+© Real Example (From Your Watchlist)
+Nifty 22,200 Zone:
++ CeMonthiy 08
++ Cé: Monthly + Weekly nested = 1
++ This zone starts with 3/12 before even checking displacement, freshness, or price action
+
++ This is why you identified it as “highest conviction sniper entry"
+&
+
+BHEL £350-358 April OB:
++ Weekly 08 = C1 score of 1
+
+* First touch (if unmitigated) = C3 score of 2
+
++ Needs displacement + price action for full scoring

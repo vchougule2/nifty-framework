@@ -1,0 +1,21 @@
+OCR processing summary
+================================================================================
+Document 1.pdf: 11/11 pages text file complete=True
+document 2.pdf: 11/11 pages text file complete=True
+Document 3.pdf: 8/8 pages text file complete=True
+Document 4.pdf: 9/9 pages text file complete=True
+Document 5.pdf: 10/10 pages text file complete=True
+document 6.pdf: 13/13 pages text file complete=True
+Document 7.pdf: 15/15 pages text file complete=True
+Document 8.pdf: 17/17 pages text file complete=True
+document 9.pdf: 16/16 pages text file complete=True
+Document 10.pdf: 19/19 pages text file complete=True
+Document 11.pdf: 22/22 pages text file complete=True
+Document 12.pdf: 16/16 pages text file complete=True
+Document 13.pdf: 14/14 pages text file complete=True
+Document 14.pdf: 20/20 pages text file complete=True
+Document 15.pdf: 10/10 pages text file complete=True
+
+Total pages: 211
+OCR engine: Tesseract 5.5.0 CLI/pytesseract.
+Note: OCR can contain recognition errors due to scanned/photographed screenshots; verify critical values against the PDFs.
